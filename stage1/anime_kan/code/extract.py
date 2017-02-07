@@ -120,7 +120,8 @@ def extract_file(file_name, output_file):
 	VOICEACTORS = m_filter
 	#print('Voice Actors:' + m_filter) 
 	
-	This_entry = RANK +',' + TITLE + ',' + EPISODES + ',\"' + PRODUCERS + '\",\"' + GENRES + '\",' + TYPE + ',' + PREMIERED + ',' + END + ',' + RATING + ',' + SCORE + ',\"' + VOICEACTORS + '\"\n' 
+	This_entry = RANK + ',' + TITLE + ',' + EPISODES + ',\"' + PRODUCERS + '\",' + TYPE + ',' + PREMIERED + ',' + END + ',' + RATING + ',' + SCORE + ',\"' + VOICEACTORS + '\"\n' 
+	#This_entry = RANK + ',' + TITLE + ',' + EPISODES + ',\"' + PRODUCERS + '\",\"' + GENRES + '\",' + TYPE + ',' + PREMIERED + ',' + END + ',' + RATING + ',' + SCORE + ',\"' + VOICEACTORS + '\"\n' 
 
 	output_file.write(This_entry)
 
@@ -149,3 +150,8 @@ if __name__=='__main__':
 	for fname in htmlfiles:
 		input_file = input_dir + fname
 		extract_file(input_file, output_file)
+
+
+	# sort, add ID
+ 	# choose to use access	
+	# 
