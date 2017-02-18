@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Second</word>
+            <lemma>second</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>season</word>
+            <lemma>season</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Kono</word>
+            <lemma>Kono</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Subarashii</word>
+            <lemma>Subarashii</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Sekai</word>
+            <lemma>Sekai</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>ni</word>
+            <lemma>ni</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Shukufuku</word>
+            <lemma>Shukufuku</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>wo</word>
+            <lemma>will</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>!</word>
+            <lemma>!</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (JJ Second) (NN season)) (PP (IN of) (NP (NNP Kono) (NNP Subarashii) (NNP Sekai)))) (VP (VBZ ni) (SBAR (S (NP (NNP Shukufuku)) (VP (MD wo))))) (. !))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">ni</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">season</governor>
+            <dependent idx="1">Second</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">ni</governor>
+            <dependent idx="2">season</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="4">Kono</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="5">Subarashii</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">season</governor>
+            <dependent idx="6">Sekai</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">wo</governor>
+            <dependent idx="8">Shukufuku</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">ni</governor>
+            <dependent idx="9">wo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">ni</governor>
+            <dependent idx="10">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">ni</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">season</governor>
+            <dependent idx="1">Second</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">ni</governor>
+            <dependent idx="2">season</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="4">Kono</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="5">Subarashii</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">season</governor>
+            <dependent idx="6">Sekai</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">wo</governor>
+            <dependent idx="8">Shukufuku</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">ni</governor>
+            <dependent idx="9">wo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">ni</governor>
+            <dependent idx="10">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">ni</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">season</governor>
+            <dependent idx="1">Second</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">ni</governor>
+            <dependent idx="2">season</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="4">Kono</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="5">Subarashii</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">season</governor>
+            <dependent idx="6">Sekai</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">wo</governor>
+            <dependent idx="8">Shukufuku</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">ni</governor>
+            <dependent idx="9">wo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">ni</governor>
+            <dependent idx="10">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">ni</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">season</governor>
+            <dependent idx="1">Second</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">ni</governor>
+            <dependent idx="2">season</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="4">Kono</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="5">Subarashii</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">season</governor>
+            <dependent idx="6">Sekai</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">wo</governor>
+            <dependent idx="8">Shukufuku</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">ni</governor>
+            <dependent idx="9">wo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">ni</governor>
+            <dependent idx="10">!</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">ni</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">season</governor>
+            <dependent idx="1">Second</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">ni</governor>
+            <dependent idx="2">season</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="4">Kono</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">Sekai</governor>
+            <dependent idx="5">Subarashii</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">season</governor>
+            <dependent idx="6">Sekai</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">wo</governor>
+            <dependent idx="8">Shukufuku</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">ni</governor>
+            <dependent idx="9">wo</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">ni</governor>
+            <dependent idx="10">!</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
