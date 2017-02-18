@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Director</word>
+            <lemma>Director</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>cut</word>
+            <lemma>cut</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>episode</word>
+            <lemma>episode</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>12</word>
+            <lemma>12</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>12.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>included</word>
+            <lemma>include</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>BD/DVD</word>
+            <lemma>bd/dvd</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>box</word>
+            <lemma>box</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>release</word>
+            <lemma>release</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NP (NNP Director) (POS 's)) (NN cut)) (PP (IN of) (NP (NN episode) (CD 12)))) (VP (VBD included) (PP (IN with) (NP (DT the) (NN BD/DVD) (NN box) (NN release)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">included</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">cut</governor>
+            <dependent idx="1">Director</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Director</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">included</governor>
+            <dependent idx="3">cut</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">episode</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">cut</governor>
+            <dependent idx="5">episode</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">episode</governor>
+            <dependent idx="6">12</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">release</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">release</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">release</governor>
+            <dependent idx="10">BD/DVD</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">release</governor>
+            <dependent idx="11">box</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">included</governor>
+            <dependent idx="12">release</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">included</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">included</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">cut</governor>
+            <dependent idx="1">Director</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Director</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">included</governor>
+            <dependent idx="3">cut</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">episode</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">cut</governor>
+            <dependent idx="5">episode</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">episode</governor>
+            <dependent idx="6">12</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">release</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">release</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">release</governor>
+            <dependent idx="10">BD/DVD</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">release</governor>
+            <dependent idx="11">box</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">included</governor>
+            <dependent idx="12">release</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">included</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">included</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">cut</governor>
+            <dependent idx="1">Director</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Director</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">included</governor>
+            <dependent idx="3">cut</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">episode</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">cut</governor>
+            <dependent idx="5">episode</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">episode</governor>
+            <dependent idx="6">12</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">release</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">release</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">release</governor>
+            <dependent idx="10">BD/DVD</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">release</governor>
+            <dependent idx="11">box</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">included</governor>
+            <dependent idx="12">release</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">included</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">included</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">cut</governor>
+            <dependent idx="1">Director</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Director</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">included</governor>
+            <dependent idx="3">cut</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">episode</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">cut</governor>
+            <dependent idx="5">episode</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">episode</governor>
+            <dependent idx="6">12</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">release</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">release</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">release</governor>
+            <dependent idx="10">BD/DVD</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">release</governor>
+            <dependent idx="11">box</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">included</governor>
+            <dependent idx="12">release</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">included</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">included</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">cut</governor>
+            <dependent idx="1">Director</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Director</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">included</governor>
+            <dependent idx="3">cut</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">episode</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">cut</governor>
+            <dependent idx="5">episode</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="5">episode</governor>
+            <dependent idx="6">12</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">release</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">release</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">release</governor>
+            <dependent idx="10">BD/DVD</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="12">release</governor>
+            <dependent idx="11">box</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">included</governor>
+            <dependent idx="12">release</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">included</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Contains</word>
+            <lemma>contain</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>about</word>
+            <lemma>about</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT15M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">PT15M</Timex>
+          </token>
+          <token id="3">
+            <word>15</word>
+            <lemma>15</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT15M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">PT15M</Timex>
+          </token>
+          <token id="4">
+            <word>minutes</word>
+            <lemma>minute</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT15M</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">PT15M</Timex>
+          </token>
+          <token id="5">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>new</word>
+            <lemma>new</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>content</word>
+            <lemma>content</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VBZ Contains) (PP (IN about) (NP (NP (CD 15) (NNS minutes)) (PP (IN of) (NP (JJ new) (NN content)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Contains</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">minutes</governor>
+            <dependent idx="2">about</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">minutes</governor>
+            <dependent idx="3">15</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Contains</governor>
+            <dependent idx="4">minutes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">content</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">content</governor>
+            <dependent idx="6">new</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">minutes</governor>
+            <dependent idx="7">content</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Contains</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Contains</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">minutes</governor>
+            <dependent idx="2">about</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">minutes</governor>
+            <dependent idx="3">15</dependent>
+          </dep>
+          <dep type="nmod:about">
+            <governor idx="1">Contains</governor>
+            <dependent idx="4">minutes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">content</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">content</governor>
+            <dependent idx="6">new</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="4">minutes</governor>
+            <dependent idx="7">content</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Contains</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Contains</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">minutes</governor>
+            <dependent idx="2">about</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">minutes</governor>
+            <dependent idx="3">15</dependent>
+          </dep>
+          <dep type="nmod:about">
+            <governor idx="1">Contains</governor>
+            <dependent idx="4">minutes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">content</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">content</governor>
+            <dependent idx="6">new</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="4">minutes</governor>
+            <dependent idx="7">content</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Contains</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Contains</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">minutes</governor>
+            <dependent idx="2">about</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">minutes</governor>
+            <dependent idx="3">15</dependent>
+          </dep>
+          <dep type="nmod:about">
+            <governor idx="1">Contains</governor>
+            <dependent idx="4">minutes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">content</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">content</governor>
+            <dependent idx="6">new</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="4">minutes</governor>
+            <dependent idx="7">content</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Contains</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Contains</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">minutes</governor>
+            <dependent idx="2">about</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="4">minutes</governor>
+            <dependent idx="3">15</dependent>
+          </dep>
+          <dep type="nmod:about">
+            <governor idx="1">Contains</governor>
+            <dependent idx="4">minutes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">content</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">content</governor>
+            <dependent idx="6">new</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="4">minutes</governor>
+            <dependent idx="7">content</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Contains</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

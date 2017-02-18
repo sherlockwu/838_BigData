@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Unaired</word>
+            <lemma>unaired</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>anime-original</word>
+            <lemma>anime-original</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>OVA</word>
+            <lemma>ova</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>bundled</word>
+            <lemma>bundle</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>12th</word>
+            <lemma>12th</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>12.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>volume</word>
+            <lemma>volume</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Hitsugi</word>
+            <lemma>Hitsugi</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>no</word>
+            <lemma>no</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Chaika</word>
+            <lemma>Chaika</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>novel</word>
+            <lemma>novel</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Unaired) (JJ anime-original) (NN OVA)) (VP (VBN bundled) (PP (IN with) (NP (NP (JJ 12th) (NN volume)) (PP (IN of) (NP (NP (DT the) (NNP Hitsugi)) (NP (DT no) (NNP Chaika) (NN novel))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">bundled</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="1">Unaired</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="2">anime-original</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">bundled</governor>
+            <dependent idx="3">OVA</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">volume</governor>
+            <dependent idx="5">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">volume</governor>
+            <dependent idx="6">12th</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">bundled</governor>
+            <dependent idx="7">volume</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">volume</governor>
+            <dependent idx="10">Hitsugi</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">novel</governor>
+            <dependent idx="11">no</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">novel</governor>
+            <dependent idx="12">Chaika</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="13">novel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">bundled</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">bundled</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="1">Unaired</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="2">anime-original</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">bundled</governor>
+            <dependent idx="3">OVA</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">volume</governor>
+            <dependent idx="5">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">volume</governor>
+            <dependent idx="6">12th</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="4">bundled</governor>
+            <dependent idx="7">volume</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">volume</governor>
+            <dependent idx="10">Hitsugi</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">novel</governor>
+            <dependent idx="11">no</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">novel</governor>
+            <dependent idx="12">Chaika</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="13">novel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">bundled</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">bundled</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="1">Unaired</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="2">anime-original</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">bundled</governor>
+            <dependent idx="3">OVA</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">volume</governor>
+            <dependent idx="5">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">volume</governor>
+            <dependent idx="6">12th</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="4">bundled</governor>
+            <dependent idx="7">volume</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">volume</governor>
+            <dependent idx="10">Hitsugi</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">novel</governor>
+            <dependent idx="11">no</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">novel</governor>
+            <dependent idx="12">Chaika</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="13">novel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">bundled</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">bundled</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="1">Unaired</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="2">anime-original</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">bundled</governor>
+            <dependent idx="3">OVA</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">volume</governor>
+            <dependent idx="5">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">volume</governor>
+            <dependent idx="6">12th</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="4">bundled</governor>
+            <dependent idx="7">volume</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">volume</governor>
+            <dependent idx="10">Hitsugi</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">novel</governor>
+            <dependent idx="11">no</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">novel</governor>
+            <dependent idx="12">Chaika</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="13">novel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">bundled</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">bundled</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="1">Unaired</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="2">anime-original</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">bundled</governor>
+            <dependent idx="3">OVA</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">volume</governor>
+            <dependent idx="5">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">volume</governor>
+            <dependent idx="6">12th</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="4">bundled</governor>
+            <dependent idx="7">volume</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">volume</governor>
+            <dependent idx="10">Hitsugi</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">novel</governor>
+            <dependent idx="11">no</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">novel</governor>
+            <dependent idx="12">Chaika</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="10">Hitsugi</governor>
+            <dependent idx="13">novel</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">bundled</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

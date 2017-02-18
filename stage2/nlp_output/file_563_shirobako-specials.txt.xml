@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Specials</word>
+            <lemma>special</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>included</word>
+            <lemma>include</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>third</word>
+            <lemma>third</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>3.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>ORDINAL</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>seventh</word>
+            <lemma>seventh</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>volumes</word>
+            <lemma>volume</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Blu-ray</word>
+            <lemma>blu-ray</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>DVD</word>
+            <lemma>dvd</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>releases</word>
+            <lemma>release</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Specials)) (VP (VBD included) (PP (IN with) (NP (NP (JJ third) (CC and) (JJ seventh) (NNS volumes)) (PP (IN of) (NP (DT the) (NN Blu-ray) (CC and) (NN DVD) (NNS releases)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">included</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">included</governor>
+            <dependent idx="1">Specials</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">volumes</governor>
+            <dependent idx="3">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">volumes</governor>
+            <dependent idx="4">third</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">third</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">third</governor>
+            <dependent idx="6">seventh</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">included</governor>
+            <dependent idx="7">volumes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">releases</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">releases</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">releases</governor>
+            <dependent idx="10">Blu-ray</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">Blu-ray</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="10">Blu-ray</governor>
+            <dependent idx="12">DVD</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">volumes</governor>
+            <dependent idx="13">releases</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">included</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">included</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">included</governor>
+            <dependent idx="1">Specials</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">volumes</governor>
+            <dependent idx="3">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">volumes</governor>
+            <dependent idx="4">third</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">third</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">third</governor>
+            <dependent idx="6">seventh</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="2">included</governor>
+            <dependent idx="7">volumes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">releases</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">releases</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">releases</governor>
+            <dependent idx="10">Blu-ray</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">Blu-ray</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="10">Blu-ray</governor>
+            <dependent idx="12">DVD</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">volumes</governor>
+            <dependent idx="13">releases</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">included</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">included</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">included</governor>
+            <dependent idx="1">Specials</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">volumes</governor>
+            <dependent idx="3">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">volumes</governor>
+            <dependent idx="4">third</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">third</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">third</governor>
+            <dependent idx="6">seventh</dependent>
+          </dep>
+          <dep type="amod" extra="true">
+            <governor idx="7">volumes</governor>
+            <dependent idx="6">seventh</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="2">included</governor>
+            <dependent idx="7">volumes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">releases</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">releases</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">releases</governor>
+            <dependent idx="10">Blu-ray</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">Blu-ray</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="10">Blu-ray</governor>
+            <dependent idx="12">DVD</dependent>
+          </dep>
+          <dep type="compound" extra="true">
+            <governor idx="13">releases</governor>
+            <dependent idx="12">DVD</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">volumes</governor>
+            <dependent idx="13">releases</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">included</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">included</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">included</governor>
+            <dependent idx="1">Specials</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">volumes</governor>
+            <dependent idx="3">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">volumes</governor>
+            <dependent idx="4">third</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">third</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">third</governor>
+            <dependent idx="6">seventh</dependent>
+          </dep>
+          <dep type="amod" extra="true">
+            <governor idx="7">volumes</governor>
+            <dependent idx="6">seventh</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="2">included</governor>
+            <dependent idx="7">volumes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">releases</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">releases</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">releases</governor>
+            <dependent idx="10">Blu-ray</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">Blu-ray</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="10">Blu-ray</governor>
+            <dependent idx="12">DVD</dependent>
+          </dep>
+          <dep type="compound" extra="true">
+            <governor idx="13">releases</governor>
+            <dependent idx="12">DVD</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">volumes</governor>
+            <dependent idx="13">releases</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">included</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">included</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">included</governor>
+            <dependent idx="1">Specials</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">volumes</governor>
+            <dependent idx="3">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">volumes</governor>
+            <dependent idx="4">third</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">third</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">third</governor>
+            <dependent idx="6">seventh</dependent>
+          </dep>
+          <dep type="amod" extra="true">
+            <governor idx="7">volumes</governor>
+            <dependent idx="6">seventh</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="2">included</governor>
+            <dependent idx="7">volumes</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">releases</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">releases</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">releases</governor>
+            <dependent idx="10">Blu-ray</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">Blu-ray</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="10">Blu-ray</governor>
+            <dependent idx="12">DVD</dependent>
+          </dep>
+          <dep type="compound" extra="true">
+            <governor idx="13">releases</governor>
+            <dependent idx="12">DVD</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">volumes</governor>
+            <dependent idx="13">releases</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">included</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
