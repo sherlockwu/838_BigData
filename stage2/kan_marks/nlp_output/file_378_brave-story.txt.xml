@@ -1,0 +1,2411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>When</word>
+            <lemma>when</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>11-year-old</word>
+            <lemma>11-year-old</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P11Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P11Y</Timex>
+          </token>
+          <token id="3">
+            <word>Wataru</word>
+            <lemma>Wataru</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>father</word>
+            <lemma>father</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>leaves</word>
+            <lemma>leave</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>home</word>
+            <lemma>home</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>his</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>mother</word>
+            <lemma>mother</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>taken</word>
+            <lemma>take</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>ill</word>
+            <lemma>ill</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>hospital</word>
+            <lemma>hospital</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>decides</word>
+            <lemma>decide</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>change</word>
+            <lemma>change</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>his</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>fate</word>
+            <lemma>fate</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>traveling</word>
+            <lemma>travel</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>through</word>
+            <lemma>through</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="28">
+            <word>door</word>
+            <lemma>door</lemma>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="29">
+            <word>shown</word>
+            <lemma>show</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="30">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>158</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="31">
+            <word>him</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>159</CharacterOffsetBegin>
+            <CharacterOffsetEnd>162</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="32">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>163</CharacterOffsetBegin>
+            <CharacterOffsetEnd>165</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="33">
+            <word>his</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>166</CharacterOffsetBegin>
+            <CharacterOffsetEnd>169</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="34">
+            <word>friend</word>
+            <lemma>friend</lemma>
+            <CharacterOffsetBegin>170</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="35">
+            <word>Mitsuru</word>
+            <lemma>Mitsuru</lemma>
+            <CharacterOffsetBegin>177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>184</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="36">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>184</CharacterOffsetBegin>
+            <CharacterOffsetEnd>185</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (WHADVP (WRB When)) (S (NP (NP (JJ 11-year-old) (NNP Wataru) (POS 's)) (NN father)) (VP (VBZ leaves) (SBAR (S (NP (NP (NN home)) (CC and) (NP (PRP$ his) (NN mother))) (VP (VBZ is) (VP (VBN taken) (ADVP (RB ill)) (PP (TO to) (NP (DT the) (NN hospital)))))))))) (, ,) (NP (PRP he)) (VP (VBZ decides) (S (VP (TO to) (VP (VB change) (NP (PRP$ his) (NN fate)) (PP (IN by) (S (VP (VBG traveling) (PP (IN through) (NP (NP (DT the) (NN door)) (VP (VBN shown) (PP (TO to) (NP (PRP him))) (PP (IN by) (NP (NP (PRP$ his) (NN friend)) (NP (NNP Mitsuru)))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">decides</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">leaves</governor>
+            <dependent idx="1">When</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Wataru</governor>
+            <dependent idx="2">11-year-old</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="5">father</governor>
+            <dependent idx="3">Wataru</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Wataru</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">leaves</governor>
+            <dependent idx="5">father</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="19">decides</governor>
+            <dependent idx="6">leaves</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">taken</governor>
+            <dependent idx="7">home</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">home</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">mother</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">home</governor>
+            <dependent idx="10">mother</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">taken</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">leaves</governor>
+            <dependent idx="12">taken</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">taken</governor>
+            <dependent idx="13">ill</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">hospital</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">hospital</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="12">taken</governor>
+            <dependent idx="16">hospital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">decides</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">decides</governor>
+            <dependent idx="18">he</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">change</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="19">decides</governor>
+            <dependent idx="21">change</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="23">fate</governor>
+            <dependent idx="22">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">change</governor>
+            <dependent idx="23">fate</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">traveling</governor>
+            <dependent idx="24">by</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="21">change</governor>
+            <dependent idx="25">traveling</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">door</governor>
+            <dependent idx="26">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="28">door</governor>
+            <dependent idx="27">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="25">traveling</governor>
+            <dependent idx="28">door</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="28">door</governor>
+            <dependent idx="29">shown</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="31">him</governor>
+            <dependent idx="30">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="29">shown</governor>
+            <dependent idx="31">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="34">friend</governor>
+            <dependent idx="32">by</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="34">friend</governor>
+            <dependent idx="33">his</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="29">shown</governor>
+            <dependent idx="34">friend</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="34">friend</governor>
+            <dependent idx="35">Mitsuru</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">decides</governor>
+            <dependent idx="36">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">decides</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">leaves</governor>
+            <dependent idx="1">When</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Wataru</governor>
+            <dependent idx="2">11-year-old</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="5">father</governor>
+            <dependent idx="3">Wataru</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Wataru</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">leaves</governor>
+            <dependent idx="5">father</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="19">decides</governor>
+            <dependent idx="6">leaves</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">taken</governor>
+            <dependent idx="7">home</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">home</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">mother</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="7">home</governor>
+            <dependent idx="10">mother</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">taken</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">leaves</governor>
+            <dependent idx="12">taken</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">taken</governor>
+            <dependent idx="13">ill</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">hospital</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">hospital</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="12">taken</governor>
+            <dependent idx="16">hospital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">decides</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">decides</governor>
+            <dependent idx="18">he</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">change</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="19">decides</governor>
+            <dependent idx="21">change</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="23">fate</governor>
+            <dependent idx="22">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">change</governor>
+            <dependent idx="23">fate</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">traveling</governor>
+            <dependent idx="24">by</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="21">change</governor>
+            <dependent idx="25">traveling</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">door</governor>
+            <dependent idx="26">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="28">door</governor>
+            <dependent idx="27">the</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="25">traveling</governor>
+            <dependent idx="28">door</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="28">door</governor>
+            <dependent idx="29">shown</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="31">him</governor>
+            <dependent idx="30">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="29">shown</governor>
+            <dependent idx="31">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="34">friend</governor>
+            <dependent idx="32">by</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="34">friend</governor>
+            <dependent idx="33">his</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="29">shown</governor>
+            <dependent idx="34">friend</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="34">friend</governor>
+            <dependent idx="35">Mitsuru</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">decides</governor>
+            <dependent idx="36">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">decides</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">leaves</governor>
+            <dependent idx="1">When</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Wataru</governor>
+            <dependent idx="2">11-year-old</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="5">father</governor>
+            <dependent idx="3">Wataru</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Wataru</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">leaves</governor>
+            <dependent idx="5">father</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="19">decides</governor>
+            <dependent idx="6">leaves</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">taken</governor>
+            <dependent idx="7">home</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">home</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">mother</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="7">home</governor>
+            <dependent idx="10">mother</dependent>
+          </dep>
+          <dep type="nsubjpass" extra="true">
+            <governor idx="12">taken</governor>
+            <dependent idx="10">mother</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">taken</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">leaves</governor>
+            <dependent idx="12">taken</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">taken</governor>
+            <dependent idx="13">ill</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">hospital</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">hospital</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="12">taken</governor>
+            <dependent idx="16">hospital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">decides</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">decides</governor>
+            <dependent idx="18">he</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">change</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="19">decides</governor>
+            <dependent idx="21">change</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="23">fate</governor>
+            <dependent idx="22">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">change</governor>
+            <dependent idx="23">fate</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">traveling</governor>
+            <dependent idx="24">by</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="21">change</governor>
+            <dependent idx="25">traveling</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">door</governor>
+            <dependent idx="26">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="28">door</governor>
+            <dependent idx="27">the</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="25">traveling</governor>
+            <dependent idx="28">door</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="28">door</governor>
+            <dependent idx="29">shown</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="31">him</governor>
+            <dependent idx="30">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="29">shown</governor>
+            <dependent idx="31">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="34">friend</governor>
+            <dependent idx="32">by</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="34">friend</governor>
+            <dependent idx="33">his</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="29">shown</governor>
+            <dependent idx="34">friend</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="34">friend</governor>
+            <dependent idx="35">Mitsuru</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">decides</governor>
+            <dependent idx="36">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">decides</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">leaves</governor>
+            <dependent idx="1">When</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Wataru</governor>
+            <dependent idx="2">11-year-old</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="5">father</governor>
+            <dependent idx="3">Wataru</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Wataru</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">leaves</governor>
+            <dependent idx="5">father</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="19">decides</governor>
+            <dependent idx="6">leaves</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">taken</governor>
+            <dependent idx="7">home</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">home</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">mother</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="7">home</governor>
+            <dependent idx="10">mother</dependent>
+          </dep>
+          <dep type="nsubjpass" extra="true">
+            <governor idx="12">taken</governor>
+            <dependent idx="10">mother</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">taken</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">leaves</governor>
+            <dependent idx="12">taken</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">taken</governor>
+            <dependent idx="13">ill</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">hospital</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">hospital</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="12">taken</governor>
+            <dependent idx="16">hospital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">decides</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">decides</governor>
+            <dependent idx="18">he</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="21">change</governor>
+            <dependent idx="18">he</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">change</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="19">decides</governor>
+            <dependent idx="21">change</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="23">fate</governor>
+            <dependent idx="22">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">change</governor>
+            <dependent idx="23">fate</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">traveling</governor>
+            <dependent idx="24">by</dependent>
+          </dep>
+          <dep type="advcl:by">
+            <governor idx="21">change</governor>
+            <dependent idx="25">traveling</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">door</governor>
+            <dependent idx="26">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="28">door</governor>
+            <dependent idx="27">the</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="25">traveling</governor>
+            <dependent idx="28">door</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="28">door</governor>
+            <dependent idx="29">shown</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="31">him</governor>
+            <dependent idx="30">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="29">shown</governor>
+            <dependent idx="31">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="34">friend</governor>
+            <dependent idx="32">by</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="34">friend</governor>
+            <dependent idx="33">his</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="29">shown</governor>
+            <dependent idx="34">friend</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="34">friend</governor>
+            <dependent idx="35">Mitsuru</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">decides</governor>
+            <dependent idx="36">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">decides</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">leaves</governor>
+            <dependent idx="1">When</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">Wataru</governor>
+            <dependent idx="2">11-year-old</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="5">father</governor>
+            <dependent idx="3">Wataru</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">Wataru</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">leaves</governor>
+            <dependent idx="5">father</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="19">decides</governor>
+            <dependent idx="6">leaves</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">taken</governor>
+            <dependent idx="7">home</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">home</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">mother</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="7">home</governor>
+            <dependent idx="10">mother</dependent>
+          </dep>
+          <dep type="nsubjpass" extra="true">
+            <governor idx="12">taken</governor>
+            <dependent idx="10">mother</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">taken</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">leaves</governor>
+            <dependent idx="12">taken</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">taken</governor>
+            <dependent idx="13">ill</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">hospital</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">hospital</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="12">taken</governor>
+            <dependent idx="16">hospital</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">decides</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">decides</governor>
+            <dependent idx="18">he</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="21">change</governor>
+            <dependent idx="18">he</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">change</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="19">decides</governor>
+            <dependent idx="21">change</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="23">fate</governor>
+            <dependent idx="22">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">change</governor>
+            <dependent idx="23">fate</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">traveling</governor>
+            <dependent idx="24">by</dependent>
+          </dep>
+          <dep type="advcl:by">
+            <governor idx="21">change</governor>
+            <dependent idx="25">traveling</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">door</governor>
+            <dependent idx="26">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="28">door</governor>
+            <dependent idx="27">the</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="25">traveling</governor>
+            <dependent idx="28">door</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="28">door</governor>
+            <dependent idx="29">shown</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="31">him</governor>
+            <dependent idx="30">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="29">shown</governor>
+            <dependent idx="31">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="34">friend</governor>
+            <dependent idx="32">by</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="34">friend</governor>
+            <dependent idx="33">his</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="29">shown</governor>
+            <dependent idx="34">friend</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="34">friend</governor>
+            <dependent idx="35">Mitsuru</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">decides</governor>
+            <dependent idx="36">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>In</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>188</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>189</CharacterOffsetBegin>
+            <CharacterOffsetEnd>190</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>land</word>
+            <lemma>land</lemma>
+            <CharacterOffsetBegin>191</CharacterOffsetBegin>
+            <CharacterOffsetEnd>195</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>198</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>magic</word>
+            <lemma>magic</lemma>
+            <CharacterOffsetBegin>199</CharacterOffsetBegin>
+            <CharacterOffsetEnd>204</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>205</CharacterOffsetBegin>
+            <CharacterOffsetEnd>208</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>monsters</word>
+            <lemma>monster</lemma>
+            <CharacterOffsetBegin>209</CharacterOffsetBegin>
+            <CharacterOffsetEnd>217</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>217</CharacterOffsetBegin>
+            <CharacterOffsetEnd>218</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Wataru</word>
+            <lemma>Wataru</lemma>
+            <CharacterOffsetBegin>219</CharacterOffsetBegin>
+            <CharacterOffsetEnd>225</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>must</word>
+            <lemma>must</lemma>
+            <CharacterOffsetBegin>226</CharacterOffsetBegin>
+            <CharacterOffsetEnd>230</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>summon</word>
+            <lemma>summon</lemma>
+            <CharacterOffsetBegin>231</CharacterOffsetBegin>
+            <CharacterOffsetEnd>237</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>all</word>
+            <lemma>all</lemma>
+            <CharacterOffsetBegin>238</CharacterOffsetBegin>
+            <CharacterOffsetEnd>241</CharacterOffsetEnd>
+            <POS>PDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>his</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>242</CharacterOffsetBegin>
+            <CharacterOffsetEnd>245</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>courage</word>
+            <lemma>courage</lemma>
+            <CharacterOffsetBegin>246</CharacterOffsetBegin>
+            <CharacterOffsetEnd>253</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>254</CharacterOffsetBegin>
+            <CharacterOffsetEnd>257</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>embark</word>
+            <lemma>embark</lemma>
+            <CharacterOffsetBegin>258</CharacterOffsetBegin>
+            <CharacterOffsetEnd>264</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>265</CharacterOffsetBegin>
+            <CharacterOffsetEnd>267</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>268</CharacterOffsetBegin>
+            <CharacterOffsetEnd>269</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>journey</word>
+            <lemma>journey</lemma>
+            <CharacterOffsetBegin>270</CharacterOffsetBegin>
+            <CharacterOffsetEnd>277</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>278</CharacterOffsetBegin>
+            <CharacterOffsetEnd>282</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>several</word>
+            <lemma>several</lemma>
+            <CharacterOffsetBegin>283</CharacterOffsetBegin>
+            <CharacterOffsetEnd>290</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>comrades</word>
+            <lemma>comrade</lemma>
+            <CharacterOffsetBegin>291</CharacterOffsetBegin>
+            <CharacterOffsetEnd>299</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>300</CharacterOffsetBegin>
+            <CharacterOffsetEnd>302</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>meet</word>
+            <lemma>meet</lemma>
+            <CharacterOffsetBegin>303</CharacterOffsetBegin>
+            <CharacterOffsetEnd>307</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>308</CharacterOffsetBegin>
+            <CharacterOffsetEnd>311</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>Goddess</word>
+            <lemma>Goddess</lemma>
+            <CharacterOffsetBegin>312</CharacterOffsetBegin>
+            <CharacterOffsetEnd>319</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>320</CharacterOffsetBegin>
+            <CharacterOffsetEnd>322</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="28">
+            <word>Destiny</word>
+            <lemma>Destiny</lemma>
+            <CharacterOffsetBegin>323</CharacterOffsetBegin>
+            <CharacterOffsetEnd>330</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="29">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>331</CharacterOffsetBegin>
+            <CharacterOffsetEnd>334</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="30">
+            <word>change</word>
+            <lemma>change</lemma>
+            <CharacterOffsetBegin>335</CharacterOffsetBegin>
+            <CharacterOffsetEnd>341</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="31">
+            <word>this</word>
+            <lemma>this</lemma>
+            <CharacterOffsetBegin>342</CharacterOffsetBegin>
+            <CharacterOffsetEnd>346</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="32">
+            <word>``</word>
+            <lemma>``</lemma>
+            <CharacterOffsetBegin>347</CharacterOffsetBegin>
+            <CharacterOffsetEnd>348</CharacterOffsetEnd>
+            <POS>``</POS>
+            <NER>O</NER>
+          </token>
+          <token id="33">
+            <word>mistaken</word>
+            <lemma>mistaken</lemma>
+            <CharacterOffsetBegin>348</CharacterOffsetBegin>
+            <CharacterOffsetEnd>356</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="34">
+            <word>fate</word>
+            <lemma>fate</lemma>
+            <CharacterOffsetBegin>357</CharacterOffsetBegin>
+            <CharacterOffsetEnd>361</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="35">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>361</CharacterOffsetBegin>
+            <CharacterOffsetEnd>362</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="36">
+            <word>''</word>
+            <lemma>''</lemma>
+            <CharacterOffsetBegin>362</CharacterOffsetBegin>
+            <CharacterOffsetEnd>363</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN In) (NP (NP (DT a) (NN land)) (PP (IN of) (NP (NP (JJ magic)) (CC and) (NP (NNS monsters)))))) (, ,) (NP (NNP Wataru)) (VP (MD must) (VP (VP (VB summon) (NP (PDT all) (PRP$ his) (NN courage))) (CC and) (VP (VB embark) (PP (IN on) (NP (NP (DT a) (NN journey)) (PP (IN with) (NP (JJ several) (NNS comrades))))) (S (VP (TO to) (VP (VP (VB meet) (NP (NP (DT the) (NNP Goddess)) (PP (IN of) (NP (NNP Destiny))))) (CC and) (VP (VB change) (NP (DT this) (`` ``) (JJ mistaken) (NN fate))))))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">summon</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">land</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">land</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="11">summon</governor>
+            <dependent idx="3">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">magic</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">land</governor>
+            <dependent idx="5">magic</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">magic</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">magic</governor>
+            <dependent idx="7">monsters</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">summon</governor>
+            <dependent idx="9">Wataru</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">summon</governor>
+            <dependent idx="10">must</dependent>
+          </dep>
+          <dep type="det:predet">
+            <governor idx="14">courage</governor>
+            <dependent idx="12">all</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="14">courage</governor>
+            <dependent idx="13">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">summon</governor>
+            <dependent idx="14">courage</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">summon</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">summon</governor>
+            <dependent idx="16">embark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">journey</governor>
+            <dependent idx="17">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">journey</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="16">embark</governor>
+            <dependent idx="19">journey</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">comrades</governor>
+            <dependent idx="20">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="22">comrades</governor>
+            <dependent idx="21">several</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="19">journey</governor>
+            <dependent idx="22">comrades</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="24">meet</governor>
+            <dependent idx="23">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="16">embark</governor>
+            <dependent idx="24">meet</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">Goddess</governor>
+            <dependent idx="25">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">meet</governor>
+            <dependent idx="26">Goddess</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">Destiny</governor>
+            <dependent idx="27">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="26">Goddess</governor>
+            <dependent idx="28">Destiny</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="24">meet</governor>
+            <dependent idx="29">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="24">meet</governor>
+            <dependent idx="30">change</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="34">fate</governor>
+            <dependent idx="31">this</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="34">fate</governor>
+            <dependent idx="32">``</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="34">fate</governor>
+            <dependent idx="33">mistaken</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="30">change</governor>
+            <dependent idx="34">fate</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="35">.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="36">''</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">summon</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">land</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">land</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="11">summon</governor>
+            <dependent idx="3">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">magic</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">land</governor>
+            <dependent idx="5">magic</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">magic</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">magic</governor>
+            <dependent idx="7">monsters</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">summon</governor>
+            <dependent idx="9">Wataru</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">summon</governor>
+            <dependent idx="10">must</dependent>
+          </dep>
+          <dep type="det:predet">
+            <governor idx="14">courage</governor>
+            <dependent idx="12">all</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="14">courage</governor>
+            <dependent idx="13">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">summon</governor>
+            <dependent idx="14">courage</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">summon</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="11">summon</governor>
+            <dependent idx="16">embark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">journey</governor>
+            <dependent idx="17">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">journey</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="16">embark</governor>
+            <dependent idx="19">journey</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">comrades</governor>
+            <dependent idx="20">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="22">comrades</governor>
+            <dependent idx="21">several</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="19">journey</governor>
+            <dependent idx="22">comrades</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="24">meet</governor>
+            <dependent idx="23">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="16">embark</governor>
+            <dependent idx="24">meet</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">Goddess</governor>
+            <dependent idx="25">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">meet</governor>
+            <dependent idx="26">Goddess</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">Destiny</governor>
+            <dependent idx="27">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="26">Goddess</governor>
+            <dependent idx="28">Destiny</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="24">meet</governor>
+            <dependent idx="29">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="24">meet</governor>
+            <dependent idx="30">change</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="34">fate</governor>
+            <dependent idx="31">this</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="34">fate</governor>
+            <dependent idx="32">``</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="34">fate</governor>
+            <dependent idx="33">mistaken</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="30">change</governor>
+            <dependent idx="34">fate</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="35">.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="36">''</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">summon</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">land</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">land</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="11">summon</governor>
+            <dependent idx="3">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">magic</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">land</governor>
+            <dependent idx="5">magic</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">magic</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="nmod:of" extra="true">
+            <governor idx="3">land</governor>
+            <dependent idx="7">monsters</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">magic</governor>
+            <dependent idx="7">monsters</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">summon</governor>
+            <dependent idx="9">Wataru</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="16">embark</governor>
+            <dependent idx="9">Wataru</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">summon</governor>
+            <dependent idx="10">must</dependent>
+          </dep>
+          <dep type="det:predet">
+            <governor idx="14">courage</governor>
+            <dependent idx="12">all</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="14">courage</governor>
+            <dependent idx="13">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">summon</governor>
+            <dependent idx="14">courage</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">summon</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="11">summon</governor>
+            <dependent idx="16">embark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">journey</governor>
+            <dependent idx="17">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">journey</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="16">embark</governor>
+            <dependent idx="19">journey</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">comrades</governor>
+            <dependent idx="20">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="22">comrades</governor>
+            <dependent idx="21">several</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="19">journey</governor>
+            <dependent idx="22">comrades</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="24">meet</governor>
+            <dependent idx="23">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="16">embark</governor>
+            <dependent idx="24">meet</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">Goddess</governor>
+            <dependent idx="25">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">meet</governor>
+            <dependent idx="26">Goddess</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">Destiny</governor>
+            <dependent idx="27">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="26">Goddess</governor>
+            <dependent idx="28">Destiny</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="24">meet</governor>
+            <dependent idx="29">and</dependent>
+          </dep>
+          <dep type="xcomp" extra="true">
+            <governor idx="16">embark</governor>
+            <dependent idx="30">change</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="24">meet</governor>
+            <dependent idx="30">change</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="34">fate</governor>
+            <dependent idx="31">this</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="34">fate</governor>
+            <dependent idx="32">``</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="34">fate</governor>
+            <dependent idx="33">mistaken</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="30">change</governor>
+            <dependent idx="34">fate</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="35">.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="36">''</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">summon</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">land</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">land</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="11">summon</governor>
+            <dependent idx="3">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">magic</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">land</governor>
+            <dependent idx="5">magic</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">magic</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="nmod:of" extra="true">
+            <governor idx="3">land</governor>
+            <dependent idx="7">monsters</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">magic</governor>
+            <dependent idx="7">monsters</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">summon</governor>
+            <dependent idx="9">Wataru</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="16">embark</governor>
+            <dependent idx="9">Wataru</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="24">meet</governor>
+            <dependent idx="9">Wataru</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">summon</governor>
+            <dependent idx="10">must</dependent>
+          </dep>
+          <dep type="det:predet">
+            <governor idx="14">courage</governor>
+            <dependent idx="12">all</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="14">courage</governor>
+            <dependent idx="13">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">summon</governor>
+            <dependent idx="14">courage</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">summon</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="11">summon</governor>
+            <dependent idx="16">embark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">journey</governor>
+            <dependent idx="17">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">journey</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="16">embark</governor>
+            <dependent idx="19">journey</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">comrades</governor>
+            <dependent idx="20">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="22">comrades</governor>
+            <dependent idx="21">several</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="19">journey</governor>
+            <dependent idx="22">comrades</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="24">meet</governor>
+            <dependent idx="23">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="16">embark</governor>
+            <dependent idx="24">meet</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">Goddess</governor>
+            <dependent idx="25">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">meet</governor>
+            <dependent idx="26">Goddess</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">Destiny</governor>
+            <dependent idx="27">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="26">Goddess</governor>
+            <dependent idx="28">Destiny</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="24">meet</governor>
+            <dependent idx="29">and</dependent>
+          </dep>
+          <dep type="xcomp" extra="true">
+            <governor idx="16">embark</governor>
+            <dependent idx="30">change</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="24">meet</governor>
+            <dependent idx="30">change</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="34">fate</governor>
+            <dependent idx="31">this</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="34">fate</governor>
+            <dependent idx="32">``</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="34">fate</governor>
+            <dependent idx="33">mistaken</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="30">change</governor>
+            <dependent idx="34">fate</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="35">.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="36">''</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">summon</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="3">land</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">land</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="11">summon</governor>
+            <dependent idx="3">land</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">magic</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">land</governor>
+            <dependent idx="5">magic</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">magic</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="nmod:of" extra="true">
+            <governor idx="3">land</governor>
+            <dependent idx="7">monsters</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">magic</governor>
+            <dependent idx="7">monsters</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">summon</governor>
+            <dependent idx="9">Wataru</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="16">embark</governor>
+            <dependent idx="9">Wataru</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="24">meet</governor>
+            <dependent idx="9">Wataru</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">summon</governor>
+            <dependent idx="10">must</dependent>
+          </dep>
+          <dep type="det:predet">
+            <governor idx="14">courage</governor>
+            <dependent idx="12">all</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="14">courage</governor>
+            <dependent idx="13">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">summon</governor>
+            <dependent idx="14">courage</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">summon</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="11">summon</governor>
+            <dependent idx="16">embark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">journey</governor>
+            <dependent idx="17">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">journey</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="16">embark</governor>
+            <dependent idx="19">journey</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">comrades</governor>
+            <dependent idx="20">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="22">comrades</governor>
+            <dependent idx="21">several</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="19">journey</governor>
+            <dependent idx="22">comrades</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="24">meet</governor>
+            <dependent idx="23">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="16">embark</governor>
+            <dependent idx="24">meet</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">Goddess</governor>
+            <dependent idx="25">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">meet</governor>
+            <dependent idx="26">Goddess</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="28">Destiny</governor>
+            <dependent idx="27">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="26">Goddess</governor>
+            <dependent idx="28">Destiny</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="24">meet</governor>
+            <dependent idx="29">and</dependent>
+          </dep>
+          <dep type="xcomp" extra="true">
+            <governor idx="16">embark</governor>
+            <dependent idx="30">change</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="24">meet</governor>
+            <dependent idx="30">change</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="34">fate</governor>
+            <dependent idx="31">this</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="34">fate</governor>
+            <dependent idx="32">``</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="34">fate</governor>
+            <dependent idx="33">mistaken</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="30">change</governor>
+            <dependent idx="34">fate</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="35">.</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">summon</governor>
+            <dependent idx="36">''</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>365</CharacterOffsetBegin>
+            <CharacterOffsetEnd>366</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Source</word>
+            <lemma>source</lemma>
+            <CharacterOffsetBegin>366</CharacterOffsetBegin>
+            <CharacterOffsetEnd>372</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>372</CharacterOffsetBegin>
+            <CharacterOffsetEnd>373</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>ANN</word>
+            <lemma>ANN</lemma>
+            <CharacterOffsetBegin>374</CharacterOffsetBegin>
+            <CharacterOffsetEnd>377</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>377</CharacterOffsetBegin>
+            <CharacterOffsetEnd>378</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (-LRB- -LRB-) (NP (NN Source)) (: :) (NP (NNP ANN)) (-RRB- -RRB-))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="4">ANN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="4">ANN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="4">ANN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="4">ANN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="4">ANN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>2</start>
+          <end>5</end>
+          <head>3</head>
+          <text>11-year-old Wataru 's</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>18</start>
+          <end>19</end>
+          <head>18</head>
+          <text>he</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>22</start>
+          <end>23</end>
+          <head>22</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>31</start>
+          <end>32</end>
+          <head>31</head>
+          <text>him</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>33</start>
+          <end>34</end>
+          <head>33</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>Wataru</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>13</start>
+          <end>14</end>
+          <head>13</head>
+          <text>his</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

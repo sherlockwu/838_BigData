@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>second</word>
+            <lemma>second</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>season</word>
+            <lemma>season</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Tales</word>
+            <lemma>tale</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Zestiria</word>
+            <lemma>Zestiria</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>X.</word>
+            <lemma>X.</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (DT The) (JJ second) (NN season)) (PP (IN of) (NP (NP (NNS Tales)) (PP (IN of) (NP (NNP Zestiria)))))) (NP (DT the) (NNP X.)))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">season</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">season</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">season</governor>
+            <dependent idx="2">second</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Tales</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">season</governor>
+            <dependent idx="5">Tales</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Zestiria</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">Tales</governor>
+            <dependent idx="7">Zestiria</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">X.</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">season</governor>
+            <dependent idx="9">X.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">season</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">season</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">season</governor>
+            <dependent idx="2">second</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Tales</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">season</governor>
+            <dependent idx="5">Tales</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Zestiria</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">Tales</governor>
+            <dependent idx="7">Zestiria</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">X.</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">season</governor>
+            <dependent idx="9">X.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">season</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">season</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">season</governor>
+            <dependent idx="2">second</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Tales</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">season</governor>
+            <dependent idx="5">Tales</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Zestiria</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">Tales</governor>
+            <dependent idx="7">Zestiria</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">X.</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">season</governor>
+            <dependent idx="9">X.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">season</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">season</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">season</governor>
+            <dependent idx="2">second</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Tales</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">season</governor>
+            <dependent idx="5">Tales</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Zestiria</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">Tales</governor>
+            <dependent idx="7">Zestiria</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">X.</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">season</governor>
+            <dependent idx="9">X.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">season</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">season</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">season</governor>
+            <dependent idx="2">second</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Tales</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">season</governor>
+            <dependent idx="5">Tales</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Zestiria</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">Tales</governor>
+            <dependent idx="7">Zestiria</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">X.</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">season</governor>
+            <dependent idx="9">X.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

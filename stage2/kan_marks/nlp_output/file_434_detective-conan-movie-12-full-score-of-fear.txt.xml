@@ -1,0 +1,2269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Serial</word>
+            <lemma>serial</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>murders</word>
+            <lemma>murder</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>involving</word>
+            <lemma>involve</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>all</word>
+            <lemma>all</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>kinds</word>
+            <lemma>kind</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>have</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>happened</word>
+            <lemma>happen</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (JJ Serial) (NNS murders)) (VP (VBG involving) (NP (DT all) (NNS kinds)))) (VP (VBP have) (VP (VBN happened))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">happened</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">murders</governor>
+            <dependent idx="1">Serial</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">happened</governor>
+            <dependent idx="2">murders</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">murders</governor>
+            <dependent idx="3">involving</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">kinds</governor>
+            <dependent idx="4">all</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">involving</governor>
+            <dependent idx="5">kinds</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">happened</governor>
+            <dependent idx="6">have</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">happened</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">happened</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">murders</governor>
+            <dependent idx="1">Serial</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">happened</governor>
+            <dependent idx="2">murders</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">murders</governor>
+            <dependent idx="3">involving</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">kinds</governor>
+            <dependent idx="4">all</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">involving</governor>
+            <dependent idx="5">kinds</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">happened</governor>
+            <dependent idx="6">have</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">happened</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">happened</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">murders</governor>
+            <dependent idx="1">Serial</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">happened</governor>
+            <dependent idx="2">murders</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">murders</governor>
+            <dependent idx="3">involving</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">kinds</governor>
+            <dependent idx="4">all</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">involving</governor>
+            <dependent idx="5">kinds</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">happened</governor>
+            <dependent idx="6">have</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">happened</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">happened</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">murders</governor>
+            <dependent idx="1">Serial</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">happened</governor>
+            <dependent idx="2">murders</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">murders</governor>
+            <dependent idx="3">involving</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">kinds</governor>
+            <dependent idx="4">all</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">involving</governor>
+            <dependent idx="5">kinds</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">happened</governor>
+            <dependent idx="6">have</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">happened</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">happened</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">murders</governor>
+            <dependent idx="1">Serial</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">happened</governor>
+            <dependent idx="2">murders</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="2">murders</governor>
+            <dependent idx="3">involving</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">kinds</governor>
+            <dependent idx="4">all</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">involving</governor>
+            <dependent idx="5">kinds</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">happened</governor>
+            <dependent idx="6">have</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">happened</governor>
+            <dependent idx="8">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>All</word>
+            <lemma>all</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>PDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>victims</word>
+            <lemma>victim</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>are</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Music</word>
+            <lemma>Music</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>School</word>
+            <lemma>School</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>led</word>
+            <lemma>lead</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>famous</word>
+            <lemma>famous</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>pianist</word>
+            <lemma>pianist</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PDT All) (DT the) (NNS victims)) (VP (VBP are) (PP (IN from) (NP (NP (DT a) (NNP Music) (NNP School)) (VP (VBD led) (PP (IN by) (NP (DT a) (JJ famous) (NN pianist))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">School</dependent>
+          </dep>
+          <dep type="det:predet">
+            <governor idx="3">victims</governor>
+            <dependent idx="1">All</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">victims</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">School</governor>
+            <dependent idx="3">victims</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">School</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">School</governor>
+            <dependent idx="5">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">School</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">School</governor>
+            <dependent idx="7">Music</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">School</governor>
+            <dependent idx="9">led</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">pianist</governor>
+            <dependent idx="10">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">pianist</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">pianist</governor>
+            <dependent idx="12">famous</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">led</governor>
+            <dependent idx="13">pianist</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">School</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">School</dependent>
+          </dep>
+          <dep type="det:predet">
+            <governor idx="3">victims</governor>
+            <dependent idx="1">All</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">victims</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">School</governor>
+            <dependent idx="3">victims</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">School</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">School</governor>
+            <dependent idx="5">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">School</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">School</governor>
+            <dependent idx="7">Music</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">School</governor>
+            <dependent idx="9">led</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">pianist</governor>
+            <dependent idx="10">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">pianist</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">pianist</governor>
+            <dependent idx="12">famous</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="9">led</governor>
+            <dependent idx="13">pianist</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">School</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">School</dependent>
+          </dep>
+          <dep type="det:predet">
+            <governor idx="3">victims</governor>
+            <dependent idx="1">All</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">victims</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">School</governor>
+            <dependent idx="3">victims</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">School</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">School</governor>
+            <dependent idx="5">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">School</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">School</governor>
+            <dependent idx="7">Music</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">School</governor>
+            <dependent idx="9">led</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">pianist</governor>
+            <dependent idx="10">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">pianist</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">pianist</governor>
+            <dependent idx="12">famous</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="9">led</governor>
+            <dependent idx="13">pianist</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">School</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">School</dependent>
+          </dep>
+          <dep type="det:predet">
+            <governor idx="3">victims</governor>
+            <dependent idx="1">All</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">victims</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">School</governor>
+            <dependent idx="3">victims</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">School</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">School</governor>
+            <dependent idx="5">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">School</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">School</governor>
+            <dependent idx="7">Music</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">School</governor>
+            <dependent idx="9">led</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">pianist</governor>
+            <dependent idx="10">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">pianist</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">pianist</governor>
+            <dependent idx="12">famous</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="9">led</governor>
+            <dependent idx="13">pianist</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">School</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">School</dependent>
+          </dep>
+          <dep type="det:predet">
+            <governor idx="3">victims</governor>
+            <dependent idx="1">All</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">victims</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">School</governor>
+            <dependent idx="3">victims</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">School</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">School</governor>
+            <dependent idx="5">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">School</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">School</governor>
+            <dependent idx="7">Music</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">School</governor>
+            <dependent idx="9">led</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">pianist</governor>
+            <dependent idx="10">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">pianist</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">pianist</governor>
+            <dependent idx="12">famous</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="9">led</governor>
+            <dependent idx="13">pianist</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">School</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>Conan</word>
+            <lemma>Conan</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>company</word>
+            <lemma>company</lemma>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>have</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>been</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>invited</word>
+            <lemma>invite</lemma>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>150</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>151</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>opening</word>
+            <lemma>opening</lemma>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>163</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>concert</word>
+            <lemma>concert</lemma>
+            <CharacterOffsetBegin>164</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>174</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>178</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>Music</word>
+            <lemma>Music</lemma>
+            <CharacterOffsetBegin>179</CharacterOffsetBegin>
+            <CharacterOffsetEnd>184</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>Hall</word>
+            <lemma>Hall</lemma>
+            <CharacterOffsetBegin>185</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>built</word>
+            <lemma>build</lemma>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>195</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>198</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>199</CharacterOffsetBegin>
+            <CharacterOffsetEnd>202</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>pianist</word>
+            <lemma>pianist</lemma>
+            <CharacterOffsetBegin>203</CharacterOffsetBegin>
+            <CharacterOffsetEnd>210</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>210</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Conan)) (CC and) (NP (NN company))) (VP (VBP have) (VP (VBN been) (VP (VBN invited) (PP (TO to) (NP (NP (DT a) (NN opening) (NN concert)) (PP (IN of) (NP (NP (DT the) (NNP Music) (NNP Hall)) (VP (VBN built) (PP (IN by) (NP (DT the) (NN pianist))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">invited</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">invited</governor>
+            <dependent idx="1">Conan</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Conan</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="1">Conan</governor>
+            <dependent idx="3">company</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">invited</governor>
+            <dependent idx="4">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">invited</governor>
+            <dependent idx="5">been</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">concert</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">concert</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">concert</governor>
+            <dependent idx="9">opening</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">invited</governor>
+            <dependent idx="10">concert</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Hall</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Hall</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Hall</governor>
+            <dependent idx="13">Music</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">concert</governor>
+            <dependent idx="14">Hall</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="14">Hall</governor>
+            <dependent idx="15">built</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">pianist</governor>
+            <dependent idx="16">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">pianist</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="15">built</governor>
+            <dependent idx="18">pianist</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">invited</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">invited</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">invited</governor>
+            <dependent idx="1">Conan</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Conan</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="1">Conan</governor>
+            <dependent idx="3">company</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">invited</governor>
+            <dependent idx="4">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">invited</governor>
+            <dependent idx="5">been</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">concert</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">concert</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">concert</governor>
+            <dependent idx="9">opening</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="6">invited</governor>
+            <dependent idx="10">concert</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Hall</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Hall</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Hall</governor>
+            <dependent idx="13">Music</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">concert</governor>
+            <dependent idx="14">Hall</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="14">Hall</governor>
+            <dependent idx="15">built</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">pianist</governor>
+            <dependent idx="16">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">pianist</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="15">built</governor>
+            <dependent idx="18">pianist</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">invited</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">invited</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">invited</governor>
+            <dependent idx="1">Conan</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Conan</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="1">Conan</governor>
+            <dependent idx="3">company</dependent>
+          </dep>
+          <dep type="nsubjpass" extra="true">
+            <governor idx="6">invited</governor>
+            <dependent idx="3">company</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">invited</governor>
+            <dependent idx="4">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">invited</governor>
+            <dependent idx="5">been</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">concert</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">concert</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">concert</governor>
+            <dependent idx="9">opening</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="6">invited</governor>
+            <dependent idx="10">concert</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Hall</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Hall</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Hall</governor>
+            <dependent idx="13">Music</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">concert</governor>
+            <dependent idx="14">Hall</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="14">Hall</governor>
+            <dependent idx="15">built</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">pianist</governor>
+            <dependent idx="16">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">pianist</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="15">built</governor>
+            <dependent idx="18">pianist</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">invited</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">invited</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">invited</governor>
+            <dependent idx="1">Conan</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Conan</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="1">Conan</governor>
+            <dependent idx="3">company</dependent>
+          </dep>
+          <dep type="nsubjpass" extra="true">
+            <governor idx="6">invited</governor>
+            <dependent idx="3">company</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">invited</governor>
+            <dependent idx="4">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">invited</governor>
+            <dependent idx="5">been</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">concert</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">concert</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">concert</governor>
+            <dependent idx="9">opening</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="6">invited</governor>
+            <dependent idx="10">concert</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Hall</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Hall</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Hall</governor>
+            <dependent idx="13">Music</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">concert</governor>
+            <dependent idx="14">Hall</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="14">Hall</governor>
+            <dependent idx="15">built</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">pianist</governor>
+            <dependent idx="16">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">pianist</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="15">built</governor>
+            <dependent idx="18">pianist</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">invited</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">invited</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">invited</governor>
+            <dependent idx="1">Conan</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Conan</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="1">Conan</governor>
+            <dependent idx="3">company</dependent>
+          </dep>
+          <dep type="nsubjpass" extra="true">
+            <governor idx="6">invited</governor>
+            <dependent idx="3">company</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">invited</governor>
+            <dependent idx="4">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">invited</governor>
+            <dependent idx="5">been</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">concert</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">concert</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="10">concert</governor>
+            <dependent idx="9">opening</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="6">invited</governor>
+            <dependent idx="10">concert</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">Hall</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Hall</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="14">Hall</governor>
+            <dependent idx="13">Music</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">concert</governor>
+            <dependent idx="14">Hall</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="14">Hall</governor>
+            <dependent idx="15">built</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">pianist</governor>
+            <dependent idx="16">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">pianist</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="15">built</governor>
+            <dependent idx="18">pianist</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">invited</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>212</CharacterOffsetBegin>
+            <CharacterOffsetEnd>215</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>biggest</word>
+            <lemma>biggest</lemma>
+            <CharacterOffsetBegin>216</CharacterOffsetBegin>
+            <CharacterOffsetEnd>223</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>attraction</word>
+            <lemma>attraction</lemma>
+            <CharacterOffsetBegin>224</CharacterOffsetBegin>
+            <CharacterOffsetEnd>234</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>235</CharacterOffsetBegin>
+            <CharacterOffsetEnd>237</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>this</word>
+            <lemma>this</lemma>
+            <CharacterOffsetBegin>238</CharacterOffsetBegin>
+            <CharacterOffsetEnd>242</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>concert</word>
+            <lemma>concert</lemma>
+            <CharacterOffsetBegin>243</CharacterOffsetBegin>
+            <CharacterOffsetEnd>250</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>251</CharacterOffsetBegin>
+            <CharacterOffsetEnd>253</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>254</CharacterOffsetBegin>
+            <CharacterOffsetEnd>257</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>world</word>
+            <lemma>world</lemma>
+            <CharacterOffsetBegin>258</CharacterOffsetBegin>
+            <CharacterOffsetEnd>263</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>famous</word>
+            <lemma>famous</lemma>
+            <CharacterOffsetBegin>264</CharacterOffsetBegin>
+            <CharacterOffsetEnd>270</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>violin</word>
+            <lemma>violin</lemma>
+            <CharacterOffsetBegin>271</CharacterOffsetBegin>
+            <CharacterOffsetEnd>277</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>called</word>
+            <lemma>call</lemma>
+            <CharacterOffsetBegin>278</CharacterOffsetBegin>
+            <CharacterOffsetEnd>284</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>``</word>
+            <lemma>``</lemma>
+            <CharacterOffsetBegin>285</CharacterOffsetBegin>
+            <CharacterOffsetEnd>286</CharacterOffsetEnd>
+            <POS>``</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>Stradivarius</word>
+            <lemma>Stradivarius</lemma>
+            <CharacterOffsetBegin>286</CharacterOffsetBegin>
+            <CharacterOffsetEnd>298</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="15">
+            <word>''</word>
+            <lemma>''</lemma>
+            <CharacterOffsetBegin>298</CharacterOffsetBegin>
+            <CharacterOffsetEnd>299</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>300</CharacterOffsetBegin>
+            <CharacterOffsetEnd>303</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>304</CharacterOffsetBegin>
+            <CharacterOffsetEnd>305</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>special</word>
+            <lemma>special</lemma>
+            <CharacterOffsetBegin>306</CharacterOffsetBegin>
+            <CharacterOffsetEnd>313</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>appearance</word>
+            <lemma>appearance</lemma>
+            <CharacterOffsetBegin>314</CharacterOffsetBegin>
+            <CharacterOffsetEnd>324</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>325</CharacterOffsetBegin>
+            <CharacterOffsetEnd>327</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>328</CharacterOffsetBegin>
+            <CharacterOffsetEnd>329</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>singer</word>
+            <lemma>singer</lemma>
+            <CharacterOffsetBegin>330</CharacterOffsetBegin>
+            <CharacterOffsetEnd>336</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>who</word>
+            <lemma>who</lemma>
+            <CharacterOffsetBegin>337</CharacterOffsetBegin>
+            <CharacterOffsetEnd>340</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>341</CharacterOffsetBegin>
+            <CharacterOffsetEnd>344</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>perfect</word>
+            <lemma>perfect</lemma>
+            <CharacterOffsetBegin>345</CharacterOffsetBegin>
+            <CharacterOffsetEnd>352</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>pitch</word>
+            <lemma>pitch</lemma>
+            <CharacterOffsetBegin>353</CharacterOffsetBegin>
+            <CharacterOffsetEnd>358</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>358</CharacterOffsetBegin>
+            <CharacterOffsetEnd>359</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (JJS biggest) (NN attraction)) (PP (IN of) (NP (DT this) (NN concert)))) (VP (VBZ is) (NP (NP (NP (DT the) (NN world) (JJ famous) (NN violin)) (VP (VBN called) (S (`` ``) (NP (NNP Stradivarius)) ('' '')))) (CC and) (NP (NP (DT a) (JJ special) (NN appearance)) (PP (IN of) (NP (NP (DT a) (NN singer)) (SBAR (WHNP (WP who)) (S (VP (VBZ has) (NP (JJ perfect) (NN pitch)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">violin</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">attraction</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">attraction</governor>
+            <dependent idx="2">biggest</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">violin</governor>
+            <dependent idx="3">attraction</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">concert</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">concert</governor>
+            <dependent idx="5">this</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">attraction</governor>
+            <dependent idx="6">concert</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">violin</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">violin</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">violin</governor>
+            <dependent idx="9">world</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">violin</governor>
+            <dependent idx="10">famous</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">violin</governor>
+            <dependent idx="12">called</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Stradivarius</governor>
+            <dependent idx="13">``</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">called</governor>
+            <dependent idx="14">Stradivarius</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Stradivarius</governor>
+            <dependent idx="15">''</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">violin</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">appearance</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">appearance</governor>
+            <dependent idx="18">special</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">violin</governor>
+            <dependent idx="19">appearance</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">singer</governor>
+            <dependent idx="20">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">singer</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="19">appearance</governor>
+            <dependent idx="22">singer</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="24">has</governor>
+            <dependent idx="23">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="22">singer</governor>
+            <dependent idx="24">has</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">pitch</governor>
+            <dependent idx="25">perfect</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">has</governor>
+            <dependent idx="26">pitch</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">violin</governor>
+            <dependent idx="27">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">violin</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">attraction</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">attraction</governor>
+            <dependent idx="2">biggest</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">violin</governor>
+            <dependent idx="3">attraction</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">concert</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">concert</governor>
+            <dependent idx="5">this</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">attraction</governor>
+            <dependent idx="6">concert</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">violin</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">violin</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">violin</governor>
+            <dependent idx="9">world</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">violin</governor>
+            <dependent idx="10">famous</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">violin</governor>
+            <dependent idx="12">called</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Stradivarius</governor>
+            <dependent idx="13">``</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">called</governor>
+            <dependent idx="14">Stradivarius</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Stradivarius</governor>
+            <dependent idx="15">''</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">violin</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">appearance</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">appearance</governor>
+            <dependent idx="18">special</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="11">violin</governor>
+            <dependent idx="19">appearance</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">singer</governor>
+            <dependent idx="20">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">singer</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="19">appearance</governor>
+            <dependent idx="22">singer</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="24">has</governor>
+            <dependent idx="23">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="22">singer</governor>
+            <dependent idx="24">has</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">pitch</governor>
+            <dependent idx="25">perfect</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">has</governor>
+            <dependent idx="26">pitch</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">violin</governor>
+            <dependent idx="27">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">violin</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">attraction</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">attraction</governor>
+            <dependent idx="2">biggest</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">violin</governor>
+            <dependent idx="3">attraction</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">concert</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">concert</governor>
+            <dependent idx="5">this</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">attraction</governor>
+            <dependent idx="6">concert</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">violin</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">violin</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">violin</governor>
+            <dependent idx="9">world</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">violin</governor>
+            <dependent idx="10">famous</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">violin</governor>
+            <dependent idx="12">called</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Stradivarius</governor>
+            <dependent idx="13">``</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">called</governor>
+            <dependent idx="14">Stradivarius</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Stradivarius</governor>
+            <dependent idx="15">''</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">violin</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">appearance</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">appearance</governor>
+            <dependent idx="18">special</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="11">violin</governor>
+            <dependent idx="19">appearance</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">singer</governor>
+            <dependent idx="20">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">singer</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="19">appearance</governor>
+            <dependent idx="22">singer</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="24">has</governor>
+            <dependent idx="23">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="22">singer</governor>
+            <dependent idx="24">has</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">pitch</governor>
+            <dependent idx="25">perfect</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">has</governor>
+            <dependent idx="26">pitch</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">violin</governor>
+            <dependent idx="27">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">violin</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">attraction</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">attraction</governor>
+            <dependent idx="2">biggest</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">violin</governor>
+            <dependent idx="3">attraction</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">concert</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">concert</governor>
+            <dependent idx="5">this</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">attraction</governor>
+            <dependent idx="6">concert</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">violin</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">violin</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">violin</governor>
+            <dependent idx="9">world</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">violin</governor>
+            <dependent idx="10">famous</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">violin</governor>
+            <dependent idx="12">called</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Stradivarius</governor>
+            <dependent idx="13">``</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">called</governor>
+            <dependent idx="14">Stradivarius</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Stradivarius</governor>
+            <dependent idx="15">''</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">violin</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">appearance</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">appearance</governor>
+            <dependent idx="18">special</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="11">violin</governor>
+            <dependent idx="19">appearance</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">singer</governor>
+            <dependent idx="20">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">singer</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="19">appearance</governor>
+            <dependent idx="22">singer</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="24">has</governor>
+            <dependent idx="22">singer</dependent>
+          </dep>
+          <dep type="ref">
+            <governor idx="22">singer</governor>
+            <dependent idx="23">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="22">singer</governor>
+            <dependent idx="24">has</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">pitch</governor>
+            <dependent idx="25">perfect</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">has</governor>
+            <dependent idx="26">pitch</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">violin</governor>
+            <dependent idx="27">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">violin</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">attraction</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">attraction</governor>
+            <dependent idx="2">biggest</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">violin</governor>
+            <dependent idx="3">attraction</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">concert</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">concert</governor>
+            <dependent idx="5">this</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="3">attraction</governor>
+            <dependent idx="6">concert</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">violin</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">violin</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">violin</governor>
+            <dependent idx="9">world</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">violin</governor>
+            <dependent idx="10">famous</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="11">violin</governor>
+            <dependent idx="12">called</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Stradivarius</governor>
+            <dependent idx="13">``</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">called</governor>
+            <dependent idx="14">Stradivarius</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="14">Stradivarius</governor>
+            <dependent idx="15">''</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">violin</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">appearance</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">appearance</governor>
+            <dependent idx="18">special</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="11">violin</governor>
+            <dependent idx="19">appearance</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="22">singer</governor>
+            <dependent idx="20">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">singer</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="19">appearance</governor>
+            <dependent idx="22">singer</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="24">has</governor>
+            <dependent idx="22">singer</dependent>
+          </dep>
+          <dep type="ref">
+            <governor idx="22">singer</governor>
+            <dependent idx="23">who</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="22">singer</governor>
+            <dependent idx="24">has</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">pitch</governor>
+            <dependent idx="25">perfect</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">has</governor>
+            <dependent idx="26">pitch</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="11">violin</governor>
+            <dependent idx="27">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="5">
+        <tokens>
+          <token id="1">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>364</CharacterOffsetBegin>
+            <CharacterOffsetEnd>365</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Source</word>
+            <lemma>source</lemma>
+            <CharacterOffsetBegin>365</CharacterOffsetBegin>
+            <CharacterOffsetEnd>371</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>371</CharacterOffsetBegin>
+            <CharacterOffsetEnd>372</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>ANN</word>
+            <lemma>ANN</lemma>
+            <CharacterOffsetBegin>373</CharacterOffsetBegin>
+            <CharacterOffsetEnd>376</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>376</CharacterOffsetBegin>
+            <CharacterOffsetEnd>377</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (-LRB- -LRB-) (NP (NN Source)) (: :) (NP (NNP ANN)) (-RRB- -RRB-))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="4">ANN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="4">ANN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="4">ANN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="4">ANN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="4">ANN</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">-RRB-</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>2</sentence>
+          <start>11</start>
+          <end>14</end>
+          <head>13</head>
+          <text>a famous pianist</text>
+        </mention>
+        <mention>
+          <sentence>3</sentence>
+          <start>17</start>
+          <end>19</end>
+          <head>18</head>
+          <text>the pianist</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>3</sentence>
+          <start>8</start>
+          <end>19</end>
+          <head>10</head>
+          <text>a opening concert of the Music Hall built by the pianist</text>
+        </mention>
+        <mention>
+          <sentence>4</sentence>
+          <start>5</start>
+          <end>7</end>
+          <head>6</head>
+          <text>this concert</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>4</sentence>
+          <start>8</start>
+          <end>16</end>
+          <head>11</head>
+          <text>the world famous violin called `` Stradivarius ''</text>
+        </mention>
+        <mention>
+          <sentence>4</sentence>
+          <start>1</start>
+          <end>7</end>
+          <head>3</head>
+          <text>The biggest attraction of this concert</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

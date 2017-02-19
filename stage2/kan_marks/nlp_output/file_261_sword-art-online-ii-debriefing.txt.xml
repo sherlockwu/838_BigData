@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Recap</word>
+            <lemma>Recap</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>episode</word>
+            <lemma>episode</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Phantom</word>
+            <lemma>Phantom</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Bullet</word>
+            <lemma>Bullet</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>arc</word>
+            <lemma>arc</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>also</word>
+            <lemma>also</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>known</word>
+            <lemma>know</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>Episode</word>
+            <lemma>episode</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>14.5</word>
+            <lemma>14.5</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>14.5</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Recap) (NN episode)) (PP (IN of) (NP (DT the) (NNP Phantom) (NNP Bullet) (NN arc)))) (, ,) (ADVP (RB also)) (VP (VBN known) (PP (IN as) (NP (NN Episode) (CD 14.5)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">known</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">episode</governor>
+            <dependent idx="1">Recap</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">known</governor>
+            <dependent idx="2">episode</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">arc</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">arc</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">arc</governor>
+            <dependent idx="5">Phantom</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">arc</governor>
+            <dependent idx="6">Bullet</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">episode</governor>
+            <dependent idx="7">arc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">known</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">known</governor>
+            <dependent idx="9">also</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Episode</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">known</governor>
+            <dependent idx="12">Episode</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">Episode</governor>
+            <dependent idx="13">14.5</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">known</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">known</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">episode</governor>
+            <dependent idx="1">Recap</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">known</governor>
+            <dependent idx="2">episode</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">arc</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">arc</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">arc</governor>
+            <dependent idx="5">Phantom</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">arc</governor>
+            <dependent idx="6">Bullet</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">episode</governor>
+            <dependent idx="7">arc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">known</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">known</governor>
+            <dependent idx="9">also</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Episode</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="10">known</governor>
+            <dependent idx="12">Episode</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">Episode</governor>
+            <dependent idx="13">14.5</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">known</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">known</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">episode</governor>
+            <dependent idx="1">Recap</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">known</governor>
+            <dependent idx="2">episode</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">arc</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">arc</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">arc</governor>
+            <dependent idx="5">Phantom</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">arc</governor>
+            <dependent idx="6">Bullet</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">episode</governor>
+            <dependent idx="7">arc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">known</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">known</governor>
+            <dependent idx="9">also</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Episode</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="10">known</governor>
+            <dependent idx="12">Episode</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">Episode</governor>
+            <dependent idx="13">14.5</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">known</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">known</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">episode</governor>
+            <dependent idx="1">Recap</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">known</governor>
+            <dependent idx="2">episode</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">arc</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">arc</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">arc</governor>
+            <dependent idx="5">Phantom</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">arc</governor>
+            <dependent idx="6">Bullet</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">episode</governor>
+            <dependent idx="7">arc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">known</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">known</governor>
+            <dependent idx="9">also</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Episode</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="10">known</governor>
+            <dependent idx="12">Episode</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">Episode</governor>
+            <dependent idx="13">14.5</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">known</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">known</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">episode</governor>
+            <dependent idx="1">Recap</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">known</governor>
+            <dependent idx="2">episode</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">arc</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">arc</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">arc</governor>
+            <dependent idx="5">Phantom</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">arc</governor>
+            <dependent idx="6">Bullet</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">episode</governor>
+            <dependent idx="7">arc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">known</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">known</governor>
+            <dependent idx="9">also</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">Episode</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="10">known</governor>
+            <dependent idx="12">Episode</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">Episode</governor>
+            <dependent idx="13">14.5</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="10">known</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

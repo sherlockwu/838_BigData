@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>2-episode</word>
+            <lemma>2-episode</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>OVA</word>
+            <lemma>ova</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Suisei</word>
+            <lemma>Suisei</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>no</word>
+            <lemma>no</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Gargantia</word>
+            <lemma>Gargantia</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>revealed</word>
+            <lemma>reveal</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>during</word>
+            <lemma>during</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>an</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>announcement</word>
+            <lemma>announcement</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>AnimeJapan</word>
+            <lemma>AnimeJapan</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>2014</word>
+            <lemma>2014</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">2014</Timex>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT A) (JJ 2-episode) (NN OVA)) (PP (IN for) (NP (NNP Suisei) (DT no) (NNP Gargantia)))) (VP (VBD revealed) (PP (IN during) (NP (DT an) (NN announcement))) (PP (IN at) (NP (NNP AnimeJapan) (CD 2014)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">revealed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">OVA</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="2">2-episode</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">revealed</governor>
+            <dependent idx="3">OVA</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="4">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="5">Suisei</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="6">no</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="7">Gargantia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">announcement</governor>
+            <dependent idx="9">during</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">announcement</governor>
+            <dependent idx="10">an</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">revealed</governor>
+            <dependent idx="11">announcement</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">AnimeJapan</governor>
+            <dependent idx="12">at</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">revealed</governor>
+            <dependent idx="13">AnimeJapan</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="13">AnimeJapan</governor>
+            <dependent idx="14">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">revealed</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">revealed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">OVA</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="2">2-episode</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">revealed</governor>
+            <dependent idx="3">OVA</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="4">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="5">Suisei</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="6">no</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="3">OVA</governor>
+            <dependent idx="7">Gargantia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">announcement</governor>
+            <dependent idx="9">during</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">announcement</governor>
+            <dependent idx="10">an</dependent>
+          </dep>
+          <dep type="nmod:during">
+            <governor idx="8">revealed</governor>
+            <dependent idx="11">announcement</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">AnimeJapan</governor>
+            <dependent idx="12">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">revealed</governor>
+            <dependent idx="13">AnimeJapan</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="13">AnimeJapan</governor>
+            <dependent idx="14">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">revealed</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">revealed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">OVA</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="2">2-episode</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">revealed</governor>
+            <dependent idx="3">OVA</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="4">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="5">Suisei</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="6">no</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="3">OVA</governor>
+            <dependent idx="7">Gargantia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">announcement</governor>
+            <dependent idx="9">during</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">announcement</governor>
+            <dependent idx="10">an</dependent>
+          </dep>
+          <dep type="nmod:during">
+            <governor idx="8">revealed</governor>
+            <dependent idx="11">announcement</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">AnimeJapan</governor>
+            <dependent idx="12">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">revealed</governor>
+            <dependent idx="13">AnimeJapan</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="13">AnimeJapan</governor>
+            <dependent idx="14">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">revealed</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">revealed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">OVA</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="2">2-episode</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">revealed</governor>
+            <dependent idx="3">OVA</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="4">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="5">Suisei</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="6">no</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="3">OVA</governor>
+            <dependent idx="7">Gargantia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">announcement</governor>
+            <dependent idx="9">during</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">announcement</governor>
+            <dependent idx="10">an</dependent>
+          </dep>
+          <dep type="nmod:during">
+            <governor idx="8">revealed</governor>
+            <dependent idx="11">announcement</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">AnimeJapan</governor>
+            <dependent idx="12">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">revealed</governor>
+            <dependent idx="13">AnimeJapan</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="13">AnimeJapan</governor>
+            <dependent idx="14">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">revealed</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">revealed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">OVA</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">OVA</governor>
+            <dependent idx="2">2-episode</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">revealed</governor>
+            <dependent idx="3">OVA</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="4">for</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="5">Suisei</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="7">Gargantia</governor>
+            <dependent idx="6">no</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="3">OVA</governor>
+            <dependent idx="7">Gargantia</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">announcement</governor>
+            <dependent idx="9">during</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">announcement</governor>
+            <dependent idx="10">an</dependent>
+          </dep>
+          <dep type="nmod:during">
+            <governor idx="8">revealed</governor>
+            <dependent idx="11">announcement</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">AnimeJapan</governor>
+            <dependent idx="12">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="8">revealed</governor>
+            <dependent idx="13">AnimeJapan</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="13">AnimeJapan</governor>
+            <dependent idx="14">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">revealed</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Source</word>
+            <lemma>source</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>MAL</word>
+            <lemma>MAL</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>News</word>
+            <lemma>News</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (-LRB- -LRB-) (NP (NN Source)) (: :) (NP (NNP MAL) (NNP News)) (-RRB- -RRB-))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">News</governor>
+            <dependent idx="4">MAL</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="6">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">News</governor>
+            <dependent idx="4">MAL</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="6">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">News</governor>
+            <dependent idx="4">MAL</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="6">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">News</governor>
+            <dependent idx="4">MAL</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="6">-RRB-</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Source</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="1">-LRB-</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="3">:</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">News</governor>
+            <dependent idx="4">MAL</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">Source</governor>
+            <dependent idx="5">News</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">Source</governor>
+            <dependent idx="6">-RRB-</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

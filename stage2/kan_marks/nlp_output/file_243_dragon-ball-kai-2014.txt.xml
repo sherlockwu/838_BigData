@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Remastered</word>
+            <lemma>remaster</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>version</word>
+            <lemma>version</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Majin</word>
+            <lemma>Majin</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Buu</word>
+            <lemma>Buu</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>saga</word>
+            <lemma>saga</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>adheres</word>
+            <lemma>adhere</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>more</word>
+            <lemma>more</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>manga</word>
+            <lemma>manga</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>story</word>
+            <lemma>story</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VBN Remastered) (NP (NP (NN version)) (PP (IN of) (NP (DT the) (NNP Majin) (NNP Buu) (NN saga))) (SBAR (WHNP (WDT that)) (S (VP (VBZ adheres) (NP (JJR more)) (PP (TO to) (NP (NP (DT the) (NN manga) (POS 's)) (NN story)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Remastered</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Remastered</governor>
+            <dependent idx="2">version</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">saga</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">saga</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">saga</governor>
+            <dependent idx="5">Majin</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">saga</governor>
+            <dependent idx="6">Buu</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">version</governor>
+            <dependent idx="7">saga</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">adheres</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">version</governor>
+            <dependent idx="9">adheres</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">adheres</governor>
+            <dependent idx="10">more</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">story</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">manga</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="15">story</governor>
+            <dependent idx="13">manga</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">manga</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">adheres</governor>
+            <dependent idx="15">story</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Remastered</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Remastered</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Remastered</governor>
+            <dependent idx="2">version</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">saga</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">saga</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">saga</governor>
+            <dependent idx="5">Majin</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">saga</governor>
+            <dependent idx="6">Buu</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">version</governor>
+            <dependent idx="7">saga</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">adheres</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">version</governor>
+            <dependent idx="9">adheres</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">adheres</governor>
+            <dependent idx="10">more</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">story</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">manga</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="15">story</governor>
+            <dependent idx="13">manga</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">manga</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="9">adheres</governor>
+            <dependent idx="15">story</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Remastered</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Remastered</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Remastered</governor>
+            <dependent idx="2">version</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">saga</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">saga</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">saga</governor>
+            <dependent idx="5">Majin</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">saga</governor>
+            <dependent idx="6">Buu</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">version</governor>
+            <dependent idx="7">saga</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">adheres</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">version</governor>
+            <dependent idx="9">adheres</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">adheres</governor>
+            <dependent idx="10">more</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">story</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">manga</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="15">story</governor>
+            <dependent idx="13">manga</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">manga</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="9">adheres</governor>
+            <dependent idx="15">story</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Remastered</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Remastered</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Remastered</governor>
+            <dependent idx="2">version</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="9">adheres</governor>
+            <dependent idx="2">version</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">saga</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">saga</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">saga</governor>
+            <dependent idx="5">Majin</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">saga</governor>
+            <dependent idx="6">Buu</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">version</governor>
+            <dependent idx="7">saga</dependent>
+          </dep>
+          <dep type="ref">
+            <governor idx="2">version</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">version</governor>
+            <dependent idx="9">adheres</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">adheres</governor>
+            <dependent idx="10">more</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">story</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">manga</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="15">story</governor>
+            <dependent idx="13">manga</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">manga</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="9">adheres</governor>
+            <dependent idx="15">story</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Remastered</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Remastered</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Remastered</governor>
+            <dependent idx="2">version</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="9">adheres</governor>
+            <dependent idx="2">version</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">saga</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">saga</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">saga</governor>
+            <dependent idx="5">Majin</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">saga</governor>
+            <dependent idx="6">Buu</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">version</governor>
+            <dependent idx="7">saga</dependent>
+          </dep>
+          <dep type="ref">
+            <governor idx="2">version</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="2">version</governor>
+            <dependent idx="9">adheres</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">adheres</governor>
+            <dependent idx="10">more</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="15">story</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">manga</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="15">story</governor>
+            <dependent idx="13">manga</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">manga</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="9">adheres</governor>
+            <dependent idx="15">story</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Remastered</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

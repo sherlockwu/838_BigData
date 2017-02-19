@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Remake</word>
+            <lemma>Remake</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Dragon</word>
+            <lemma>Dragon</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Ball</word>
+            <lemma>Ball</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Z</word>
+            <lemma>z</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Plan</word>
+            <lemma>Plan</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Destroy</word>
+            <lemma>destroy</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>Saiyajin</word>
+            <lemma>Saiyajin</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Remake)) (PP (IN of) (NP (NNP Dragon) (NNP Ball)))) (VP (NN Z) (: :) (S (NP (NNP Plan)) (VP (TO to) (VP (VB Destroy) (NP (DT the) (NNP Saiyajin)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Z</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Z</governor>
+            <dependent idx="1">Remake</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Ball</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Ball</governor>
+            <dependent idx="3">Dragon</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Remake</governor>
+            <dependent idx="4">Ball</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Z</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">Z</governor>
+            <dependent idx="7">Plan</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">Destroy</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">Z</governor>
+            <dependent idx="9">Destroy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Saiyajin</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">Destroy</governor>
+            <dependent idx="11">Saiyajin</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Z</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Z</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Z</governor>
+            <dependent idx="1">Remake</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Ball</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Ball</governor>
+            <dependent idx="3">Dragon</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Remake</governor>
+            <dependent idx="4">Ball</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Z</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">Z</governor>
+            <dependent idx="7">Plan</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">Destroy</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">Z</governor>
+            <dependent idx="9">Destroy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Saiyajin</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">Destroy</governor>
+            <dependent idx="11">Saiyajin</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Z</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Z</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Z</governor>
+            <dependent idx="1">Remake</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Ball</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Ball</governor>
+            <dependent idx="3">Dragon</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Remake</governor>
+            <dependent idx="4">Ball</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Z</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">Z</governor>
+            <dependent idx="7">Plan</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">Destroy</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">Z</governor>
+            <dependent idx="9">Destroy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Saiyajin</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">Destroy</governor>
+            <dependent idx="11">Saiyajin</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Z</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Z</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Z</governor>
+            <dependent idx="1">Remake</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Ball</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Ball</governor>
+            <dependent idx="3">Dragon</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Remake</governor>
+            <dependent idx="4">Ball</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Z</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">Z</governor>
+            <dependent idx="7">Plan</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">Destroy</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">Z</governor>
+            <dependent idx="9">Destroy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Saiyajin</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">Destroy</governor>
+            <dependent idx="11">Saiyajin</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Z</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">Z</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">Z</governor>
+            <dependent idx="1">Remake</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Ball</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">Ball</governor>
+            <dependent idx="3">Dragon</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="1">Remake</governor>
+            <dependent idx="4">Ball</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Z</governor>
+            <dependent idx="6">:</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">Z</governor>
+            <dependent idx="7">Plan</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">Destroy</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="5">Z</governor>
+            <dependent idx="9">Destroy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">Saiyajin</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">Destroy</governor>
+            <dependent idx="11">Saiyajin</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Z</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Extra</word>
+            <lemma>Extra</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Dragonball</word>
+            <lemma>Dragonball</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Raging</word>
+            <lemma>raging</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Blast</word>
+            <lemma>blast</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>2</word>
+            <lemma>2</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>game</word>
+            <lemma>game</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>X360/PS3</word>
+            <lemma>x360/ps3</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NP (NNP Extra)) (PP (IN on) (NP (NNP Dragonball) (JJ Raging) (NN Blast)))) (NP (NP (CD 2) (NN game)) (PP (IN on) (NP (NN X360/PS3)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Extra</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Blast</governor>
+            <dependent idx="2">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Blast</governor>
+            <dependent idx="3">Dragonball</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Blast</governor>
+            <dependent idx="4">Raging</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="1">Extra</governor>
+            <dependent idx="5">Blast</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">game</governor>
+            <dependent idx="6">2</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Extra</governor>
+            <dependent idx="7">game</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">X360/PS3</governor>
+            <dependent idx="8">on</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">game</governor>
+            <dependent idx="9">X360/PS3</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Extra</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Extra</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Blast</governor>
+            <dependent idx="2">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Blast</governor>
+            <dependent idx="3">Dragonball</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Blast</governor>
+            <dependent idx="4">Raging</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="1">Extra</governor>
+            <dependent idx="5">Blast</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">game</governor>
+            <dependent idx="6">2</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Extra</governor>
+            <dependent idx="7">game</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">X360/PS3</governor>
+            <dependent idx="8">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">game</governor>
+            <dependent idx="9">X360/PS3</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Extra</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Extra</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Blast</governor>
+            <dependent idx="2">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Blast</governor>
+            <dependent idx="3">Dragonball</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Blast</governor>
+            <dependent idx="4">Raging</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="1">Extra</governor>
+            <dependent idx="5">Blast</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">game</governor>
+            <dependent idx="6">2</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Extra</governor>
+            <dependent idx="7">game</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">X360/PS3</governor>
+            <dependent idx="8">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">game</governor>
+            <dependent idx="9">X360/PS3</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Extra</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Extra</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Blast</governor>
+            <dependent idx="2">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Blast</governor>
+            <dependent idx="3">Dragonball</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Blast</governor>
+            <dependent idx="4">Raging</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="1">Extra</governor>
+            <dependent idx="5">Blast</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">game</governor>
+            <dependent idx="6">2</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Extra</governor>
+            <dependent idx="7">game</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">X360/PS3</governor>
+            <dependent idx="8">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">game</governor>
+            <dependent idx="9">X360/PS3</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Extra</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Extra</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">Blast</governor>
+            <dependent idx="2">on</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Blast</governor>
+            <dependent idx="3">Dragonball</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Blast</governor>
+            <dependent idx="4">Raging</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="1">Extra</governor>
+            <dependent idx="5">Blast</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="7">game</governor>
+            <dependent idx="6">2</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Extra</governor>
+            <dependent idx="7">game</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">X360/PS3</governor>
+            <dependent idx="8">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">game</governor>
+            <dependent idx="9">X360/PS3</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Extra</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>retelling</word>
+            <lemma>retelling</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>Alabasta</word>
+            <lemma>Alabasta</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>arc</word>
+            <lemma>arc</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (DT A) (NN retelling)) (PP (IN of) (NP (DT the) (NNP Alabasta) (NN arc))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">retelling</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">retelling</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">arc</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">arc</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">arc</governor>
+            <dependent idx="5">Alabasta</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">retelling</governor>
+            <dependent idx="6">arc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">retelling</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">retelling</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">retelling</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">arc</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">arc</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">arc</governor>
+            <dependent idx="5">Alabasta</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">retelling</governor>
+            <dependent idx="6">arc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">retelling</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">retelling</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">retelling</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">arc</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">arc</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">arc</governor>
+            <dependent idx="5">Alabasta</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">retelling</governor>
+            <dependent idx="6">arc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">retelling</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">retelling</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">retelling</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">arc</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">arc</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">arc</governor>
+            <dependent idx="5">Alabasta</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">retelling</governor>
+            <dependent idx="6">arc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">retelling</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">retelling</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">retelling</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">arc</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">arc</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">arc</governor>
+            <dependent idx="5">Alabasta</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="2">retelling</governor>
+            <dependent idx="6">arc</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">retelling</governor>
+            <dependent idx="7">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

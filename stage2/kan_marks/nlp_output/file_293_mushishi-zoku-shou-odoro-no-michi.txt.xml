@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>One</word>
+            <lemma>one</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT1H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">PT1H</Timex>
+          </token>
+          <token id="2">
+            <word>hour</word>
+            <lemma>hour</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PT1H</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">PT1H</Timex>
+          </token>
+          <token id="3">
+            <word>special</word>
+            <lemma>special</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>broadcast</word>
+            <lemma>broadcast</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>August</word>
+            <lemma>August</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014-08-20</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">2014-08-20</Timex>
+          </token>
+          <token id="7">
+            <word>20</word>
+            <lemma>20</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014-08-20</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">2014-08-20</Timex>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014-08-20</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">2014-08-20</Timex>
+          </token>
+          <token id="9">
+            <word>2014</word>
+            <lemma>2014</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014-08-20</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE">2014-08-20</Timex>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>bundled</word>
+            <lemma>bundle</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>anime</word>
+            <lemma>anime</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>third</word>
+            <lemma>third</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>3.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>Blu-ray/DVD</word>
+            <lemma>blu-ray/dvd</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>volume</word>
+            <lemma>volume</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>November</word>
+            <lemma>November</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014-11-26</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DATE">2014-11-26</Timex>
+          </token>
+          <token id="20">
+            <word>26</word>
+            <lemma>26</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014-11-26</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DATE">2014-11-26</Timex>
+          </token>
+          <token id="21">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014-11-26</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DATE">2014-11-26</Timex>
+          </token>
+          <token id="22">
+            <word>2014</word>
+            <lemma>2014</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>2014-11-26</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t3" type="DATE">2014-11-26</Timex>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (NP (NP (CD One) (NN hour)) (VP (VP (NP (JJ special) (NN broadcast)) (PP (IN on) (NP (NNP August) (CD 20) (, ,) (CD 2014)))) (CC and) (VP (VBN bundled) (PP (IN with) (NP (NP (NP (NN anime) (POS 's)) (JJ third) (NN Blu-ray/DVD) (NN volume)) (PP (IN on) (NP (NNP November) (CD 26) (, ,) (CD 2014))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hour</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">hour</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="3">special</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">hour</governor>
+            <dependent idx="4">broadcast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">August</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="6">August</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">August</governor>
+            <dependent idx="7">20</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">August</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">August</governor>
+            <dependent idx="9">2014</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="11">bundled</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">volume</governor>
+            <dependent idx="12">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="17">volume</governor>
+            <dependent idx="13">anime</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">anime</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">volume</governor>
+            <dependent idx="15">third</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">volume</governor>
+            <dependent idx="16">Blu-ray/DVD</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="11">bundled</governor>
+            <dependent idx="17">volume</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">November</governor>
+            <dependent idx="18">on</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="17">volume</governor>
+            <dependent idx="19">November</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">November</governor>
+            <dependent idx="20">26</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">November</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">November</governor>
+            <dependent idx="22">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hour</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hour</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">hour</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="3">special</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">hour</governor>
+            <dependent idx="4">broadcast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">August</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="6">August</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">August</governor>
+            <dependent idx="7">20</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">August</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">August</governor>
+            <dependent idx="9">2014</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="11">bundled</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">volume</governor>
+            <dependent idx="12">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="17">volume</governor>
+            <dependent idx="13">anime</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">anime</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">volume</governor>
+            <dependent idx="15">third</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">volume</governor>
+            <dependent idx="16">Blu-ray/DVD</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="11">bundled</governor>
+            <dependent idx="17">volume</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">November</governor>
+            <dependent idx="18">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="17">volume</governor>
+            <dependent idx="19">November</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">November</governor>
+            <dependent idx="20">26</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">November</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">November</governor>
+            <dependent idx="22">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hour</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hour</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">hour</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="3">special</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">hour</governor>
+            <dependent idx="4">broadcast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">August</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="6">August</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">August</governor>
+            <dependent idx="7">20</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">August</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">August</governor>
+            <dependent idx="9">2014</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="dep" extra="true">
+            <governor idx="2">hour</governor>
+            <dependent idx="11">bundled</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="11">bundled</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">volume</governor>
+            <dependent idx="12">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="17">volume</governor>
+            <dependent idx="13">anime</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">anime</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">volume</governor>
+            <dependent idx="15">third</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">volume</governor>
+            <dependent idx="16">Blu-ray/DVD</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="11">bundled</governor>
+            <dependent idx="17">volume</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">November</governor>
+            <dependent idx="18">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="17">volume</governor>
+            <dependent idx="19">November</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">November</governor>
+            <dependent idx="20">26</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">November</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">November</governor>
+            <dependent idx="22">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hour</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hour</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">hour</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="3">special</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">hour</governor>
+            <dependent idx="4">broadcast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">August</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="6">August</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">August</governor>
+            <dependent idx="7">20</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">August</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">August</governor>
+            <dependent idx="9">2014</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="dep" extra="true">
+            <governor idx="2">hour</governor>
+            <dependent idx="11">bundled</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="11">bundled</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">volume</governor>
+            <dependent idx="12">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="17">volume</governor>
+            <dependent idx="13">anime</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">anime</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">volume</governor>
+            <dependent idx="15">third</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">volume</governor>
+            <dependent idx="16">Blu-ray/DVD</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="11">bundled</governor>
+            <dependent idx="17">volume</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">November</governor>
+            <dependent idx="18">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="17">volume</governor>
+            <dependent idx="19">November</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">November</governor>
+            <dependent idx="20">26</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">November</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">November</governor>
+            <dependent idx="22">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hour</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hour</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="2">hour</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="3">special</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">hour</governor>
+            <dependent idx="4">broadcast</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">August</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="6">August</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">August</governor>
+            <dependent idx="7">20</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">August</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="6">August</governor>
+            <dependent idx="9">2014</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="dep" extra="true">
+            <governor idx="2">hour</governor>
+            <dependent idx="11">bundled</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="4">broadcast</governor>
+            <dependent idx="11">bundled</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">volume</governor>
+            <dependent idx="12">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="17">volume</governor>
+            <dependent idx="13">anime</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">anime</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">volume</governor>
+            <dependent idx="15">third</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">volume</governor>
+            <dependent idx="16">Blu-ray/DVD</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="11">bundled</governor>
+            <dependent idx="17">volume</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">November</governor>
+            <dependent idx="18">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="17">volume</governor>
+            <dependent idx="19">November</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">November</governor>
+            <dependent idx="20">26</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="19">November</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="19">November</governor>
+            <dependent idx="22">2014</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hour</governor>
+            <dependent idx="23">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Adapts</word>
+            <lemma>adapt</lemma>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>``</word>
+            <lemma>``</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>``</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>Odoro</word>
+            <lemma>Odoro</lemma>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="4">
+            <word>no</word>
+            <lemma>no</lemma>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="5">
+            <word>Michi</word>
+            <lemma>Michi</lemma>
+            <CharacterOffsetBegin>138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER1</Speaker>
+          </token>
+          <token id="6">
+            <word>''</word>
+            <lemma>''</lemma>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>-LRB-</word>
+            <lemma>-lrb-</lemma>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Path</word>
+            <lemma>path</lemma>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>150</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>151</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>Thorns</word>
+            <lemma>Thorns</lemma>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>-RRB-</word>
+            <lemma>-rrb-</lemma>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>161</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>manga</word>
+            <lemma>manga</lemma>
+            <CharacterOffsetBegin>162</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>chapters</word>
+            <lemma>chapter</lemma>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>176</CharacterOffsetBegin>
+            <CharacterOffsetEnd>177</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNS Adapts)) (NP (NP (`` ``) (NP (NNP Odoro) (DT no) (NNP Michi)) ('' '') (PRN (-LRB- -LRB-) (NP (NP (NN Path)) (PP (IN of) (NP (NNP Thorns)))) (-RRB- -RRB-))) (NP (NN manga) (NNS chapters))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Adapts</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Michi</governor>
+            <dependent idx="2">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Michi</governor>
+            <dependent idx="3">Odoro</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">Michi</governor>
+            <dependent idx="4">no</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Adapts</governor>
+            <dependent idx="5">Michi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Michi</governor>
+            <dependent idx="6">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">Path</governor>
+            <dependent idx="7">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Michi</governor>
+            <dependent idx="8">Path</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Thorns</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">Path</governor>
+            <dependent idx="10">Thorns</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">Path</governor>
+            <dependent idx="11">-RRB-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">chapters</governor>
+            <dependent idx="12">manga</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Michi</governor>
+            <dependent idx="13">chapters</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Adapts</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Adapts</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Michi</governor>
+            <dependent idx="2">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Michi</governor>
+            <dependent idx="3">Odoro</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">Michi</governor>
+            <dependent idx="4">no</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Adapts</governor>
+            <dependent idx="5">Michi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Michi</governor>
+            <dependent idx="6">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">Path</governor>
+            <dependent idx="7">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Michi</governor>
+            <dependent idx="8">Path</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Thorns</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="8">Path</governor>
+            <dependent idx="10">Thorns</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">Path</governor>
+            <dependent idx="11">-RRB-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">chapters</governor>
+            <dependent idx="12">manga</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Michi</governor>
+            <dependent idx="13">chapters</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Adapts</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Adapts</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Michi</governor>
+            <dependent idx="2">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Michi</governor>
+            <dependent idx="3">Odoro</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">Michi</governor>
+            <dependent idx="4">no</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Adapts</governor>
+            <dependent idx="5">Michi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Michi</governor>
+            <dependent idx="6">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">Path</governor>
+            <dependent idx="7">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Michi</governor>
+            <dependent idx="8">Path</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Thorns</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="8">Path</governor>
+            <dependent idx="10">Thorns</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">Path</governor>
+            <dependent idx="11">-RRB-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">chapters</governor>
+            <dependent idx="12">manga</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Michi</governor>
+            <dependent idx="13">chapters</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Adapts</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Adapts</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Michi</governor>
+            <dependent idx="2">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Michi</governor>
+            <dependent idx="3">Odoro</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">Michi</governor>
+            <dependent idx="4">no</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Adapts</governor>
+            <dependent idx="5">Michi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Michi</governor>
+            <dependent idx="6">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">Path</governor>
+            <dependent idx="7">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Michi</governor>
+            <dependent idx="8">Path</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Thorns</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="8">Path</governor>
+            <dependent idx="10">Thorns</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">Path</governor>
+            <dependent idx="11">-RRB-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">chapters</governor>
+            <dependent idx="12">manga</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Michi</governor>
+            <dependent idx="13">chapters</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Adapts</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Adapts</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Michi</governor>
+            <dependent idx="2">``</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">Michi</governor>
+            <dependent idx="3">Odoro</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">Michi</governor>
+            <dependent idx="4">no</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Adapts</governor>
+            <dependent idx="5">Michi</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">Michi</governor>
+            <dependent idx="6">''</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">Path</governor>
+            <dependent idx="7">-LRB-</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Michi</governor>
+            <dependent idx="8">Path</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">Thorns</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="8">Path</governor>
+            <dependent idx="10">Thorns</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">Path</governor>
+            <dependent idx="11">-RRB-</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="13">chapters</governor>
+            <dependent idx="12">manga</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">Michi</governor>
+            <dependent idx="13">chapters</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="1">Adapts</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Naruto</word>
+            <lemma>Naruto</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>faces</word>
+            <lemma>face</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>off</word>
+            <lemma>off</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>against</word>
+            <lemma>against</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>his</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>old</word>
+            <lemma>old</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>pupil</word>
+            <lemma>pupil</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Konohamaru</word>
+            <lemma>Konohamaru</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>tournament</word>
+            <lemma>tournament</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>during</word>
+            <lemma>during</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>chuunin</word>
+            <lemma>chuunin</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>entrance</word>
+            <lemma>entrance</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>exams</word>
+            <lemma>exam</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Naruto)) (VP (VBZ faces) (PRT (RP off)) (PP (IN against) (NP (PRP$ his) (JJ old) (NN pupil))) (NP-TMP (NP (NNP Konohamaru)) (PP (IN in) (NP (DT a) (NN tournament)))) (PP (IN during) (NP (DT the) (NN chuunin) (NN entrance) (NNS exams)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">faces</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">faces</governor>
+            <dependent idx="1">Naruto</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">faces</governor>
+            <dependent idx="3">off</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">pupil</governor>
+            <dependent idx="4">against</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">pupil</governor>
+            <dependent idx="5">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">pupil</governor>
+            <dependent idx="6">old</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">faces</governor>
+            <dependent idx="7">pupil</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="2">faces</governor>
+            <dependent idx="8">Konohamaru</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">tournament</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">tournament</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="8">Konohamaru</governor>
+            <dependent idx="11">tournament</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">exams</governor>
+            <dependent idx="12">during</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">exams</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">exams</governor>
+            <dependent idx="14">chuunin</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">exams</governor>
+            <dependent idx="15">entrance</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">faces</governor>
+            <dependent idx="16">exams</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">faces</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">faces</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">faces</governor>
+            <dependent idx="1">Naruto</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">faces</governor>
+            <dependent idx="3">off</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">pupil</governor>
+            <dependent idx="4">against</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">pupil</governor>
+            <dependent idx="5">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">pupil</governor>
+            <dependent idx="6">old</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="2">faces</governor>
+            <dependent idx="7">pupil</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="2">faces</governor>
+            <dependent idx="8">Konohamaru</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">tournament</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">tournament</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="8">Konohamaru</governor>
+            <dependent idx="11">tournament</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">exams</governor>
+            <dependent idx="12">during</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">exams</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">exams</governor>
+            <dependent idx="14">chuunin</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">exams</governor>
+            <dependent idx="15">entrance</dependent>
+          </dep>
+          <dep type="nmod:during">
+            <governor idx="2">faces</governor>
+            <dependent idx="16">exams</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">faces</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">faces</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">faces</governor>
+            <dependent idx="1">Naruto</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">faces</governor>
+            <dependent idx="3">off</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">pupil</governor>
+            <dependent idx="4">against</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">pupil</governor>
+            <dependent idx="5">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">pupil</governor>
+            <dependent idx="6">old</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="2">faces</governor>
+            <dependent idx="7">pupil</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="2">faces</governor>
+            <dependent idx="8">Konohamaru</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">tournament</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">tournament</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="8">Konohamaru</governor>
+            <dependent idx="11">tournament</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">exams</governor>
+            <dependent idx="12">during</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">exams</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">exams</governor>
+            <dependent idx="14">chuunin</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">exams</governor>
+            <dependent idx="15">entrance</dependent>
+          </dep>
+          <dep type="nmod:during">
+            <governor idx="2">faces</governor>
+            <dependent idx="16">exams</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">faces</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">faces</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">faces</governor>
+            <dependent idx="1">Naruto</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">faces</governor>
+            <dependent idx="3">off</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">pupil</governor>
+            <dependent idx="4">against</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">pupil</governor>
+            <dependent idx="5">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">pupil</governor>
+            <dependent idx="6">old</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="2">faces</governor>
+            <dependent idx="7">pupil</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="2">faces</governor>
+            <dependent idx="8">Konohamaru</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">tournament</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">tournament</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="8">Konohamaru</governor>
+            <dependent idx="11">tournament</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">exams</governor>
+            <dependent idx="12">during</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">exams</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">exams</governor>
+            <dependent idx="14">chuunin</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">exams</governor>
+            <dependent idx="15">entrance</dependent>
+          </dep>
+          <dep type="nmod:during">
+            <governor idx="2">faces</governor>
+            <dependent idx="16">exams</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">faces</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">faces</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">faces</governor>
+            <dependent idx="1">Naruto</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">faces</governor>
+            <dependent idx="3">off</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">pupil</governor>
+            <dependent idx="4">against</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">pupil</governor>
+            <dependent idx="5">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">pupil</governor>
+            <dependent idx="6">old</dependent>
+          </dep>
+          <dep type="nmod:against">
+            <governor idx="2">faces</governor>
+            <dependent idx="7">pupil</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="2">faces</governor>
+            <dependent idx="8">Konohamaru</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">tournament</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">tournament</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="8">Konohamaru</governor>
+            <dependent idx="11">tournament</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">exams</governor>
+            <dependent idx="12">during</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">exams</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">exams</governor>
+            <dependent idx="14">chuunin</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">exams</governor>
+            <dependent idx="15">entrance</dependent>
+          </dep>
+          <dep type="nmod:during">
+            <governor idx="2">faces</governor>
+            <dependent idx="16">exams</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">faces</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Naruto</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>5</start>
+          <end>6</end>
+          <head>5</head>
+          <text>his</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>
