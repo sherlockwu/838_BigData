@@ -4,6 +4,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import LogisticRegression
 from sklearn.neural_network import MLPClassifier
 from sklearn.svm import SVC
+from sklearn.model_selection import cross_val_score
+from ExtractorAndFeatureGenerator import processFiles
+
 
 from sklearn import tree
 
@@ -46,14 +49,14 @@ def readFilesAndTrain(input_dir,test_dir,output_file_name,stats_file):
 
     output_file.close()
 
-def train_with_classifier(classifier,name,train_set,test_set,stats_file):
+def train_with_classifier(classifier,name,train_set,test_set,stats_file, openFile=False):
     category = []
     train_feature_set = []
     for data in train_set:
         train_feature_set.append(data.feature)
         category.append(data.category)
     classifier = classifier.fit(train_feature_set, category)
-    result = print_result(classifier, test_set, name, stats_file,False)
+    result = print_result(classifier, test_set, name, stats_file,openFile)
     return result
 
 
@@ -99,6 +102,35 @@ def trainingAndTest(train_set,test_set,stats_file):
 
     stats_file.close()
     return best_classifer,name
+
+def crossValidation(train_set):
+    train_feature_set = []
+    category = []
+    for data in train_set:
+        train_feature_set.append(data.feature)
+        category.append(data.category)
+    classifiers = []
+    classifiers.append(tree.DecisionTreeClassifier())
+    classifiers.append(RandomForestClassifier())
+    classifiers.append(SVC(kernel='linear', C=1))
+    classifiers.append(LinearRegression())
+    classifiers.append(LogisticRegression())
+
+    names = ['DECISION_TREE','RANDOM_FOREST','SUPPORT_VECTOR_MACHINE','LINEAR_REGRESSION','LOGISTIC_REGRESSION']
+
+    max_score = 0
+    for i in range(0,len(classifiers)):
+        scores = cross_val_score(classifiers[i], train_feature_set, category, cv=5)
+        total = 0
+        for score in scores:
+            total = total + score
+        mean = total / len(scores)
+        print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
+        if max_score <  mean:
+            best_classifier = classifiers[i]
+            best_classifier_name = names[i]
+            max_score = mean
+    return best_classifier,best_classifier_name
 
 def postProcess(predict, param):
     predict[0] = 0 if contains(param.value, ['Japan','Tokyo','America','Country','Wikipedia','City','Town','Academy','Island']) == True else predict[0]
@@ -153,3 +185,13 @@ def print_result(classifier, test_set,name,stats_file,openStatsFile):
 #                  '/Users/mukilanashokvijaya/IdeaProjects/anhai_838_new/stage2/extarction/testset/',
 #                  '/Users/mukilanashokvijaya/IdeaProjects/anhai_838_new/stage2/extarction/output2.txt',
 #                  '/Users/mukilanashokvijaya/IdeaProjects/anhai_838_new/stage2/extarction/stats_file.txt')
+
+#ptxtfiles = []
+#input_dir = "/Users/mukilanashokvijaya/IdeaProjects/anhai_838_Stage2/stage2/toSubmit/trainingDataSet3/"
+#for fname in os.listdir(input_dir):
+#    ptxtfiles.append(fname)
+#p_training_feature_set = "/Users/mukilanashokvijaya/IdeaProjects/anhai_838_Stage2/stage2/toSubmit/sample.txt"
+#p_training_Set = processFiles(input_dir, ptxtfiles, p_training_feature_set)
+#validation = crossValidation(p_training_Set)
+#print validation
+
