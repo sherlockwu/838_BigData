@@ -41,5 +41,5 @@ def randExtract(num):
   return negArray
   
 
-array = randExtract(3)
+array = randExtract(6)
 print(array)   
