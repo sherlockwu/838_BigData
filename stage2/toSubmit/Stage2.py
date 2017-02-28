@@ -39,6 +39,9 @@ def process(input_dir, test_input_dir,output_dir, stats_file_dir):
     # perform cross validation to obtain the best classifier for this purpose.
     best_classifier = crossValidation(I_training_set)
     print 'Classifier chosen - ' , best_classifier[1]
+    print 'Chosen Classifier Preicsion -', best_classifier[2]
+    print 'Chosen Classifier Recall -', best_classifier[3]
+    print 'Chosen Classifier F1 -', best_classifier[4]
 
     #classifierDetails = trainingAndTest(p_training_Set, q_training_Set, stats_file)
     #print 'Best Classifier - ' , classifierDetails[1]
@@ -50,7 +53,7 @@ def process(input_dir, test_input_dir,output_dir, stats_file_dir):
     #trainingAndTest(p_training_Set,test_set,stats_test_file)
 
 #Best Till now - TrainingDataSet3
-process('/Users/mukilanashokvijaya/IdeaProjects/anhai_838_Stage2/stage2/toSubmit/trainingDataSet3/',
-        '/Users/mukilanashokvijaya/IdeaProjects/anhai_838_Stage2/stage2/toSubmit/testDataSetNew/',
-        '/Users/mukilanashokvijaya/IdeaProjects/anhai_838_Stage2/stage2/toSubmit/',
-        '/Users/mukilanashokvijaya/IdeaProjects/anhai_838_Stage2/stage2/toSubmit/')
+process('/Users/mukilanashokvijaya/IdeaProjects/anhai_838_Stage2_new/stage2/toSubmit/trainingDataSet3/',
+        '/Users/mukilanashokvijaya/IdeaProjects/anhai_838_Stage2_new/stage2/toSubmit/testDataSetNew/',
+        '/Users/mukilanashokvijaya/IdeaProjects/anhai_838_Stage2_new/stage2/toSubmit/',
+        '/Users/mukilanashokvijaya/IdeaProjects/anhai_838_Stage2_new/stage2/toSubmit/')

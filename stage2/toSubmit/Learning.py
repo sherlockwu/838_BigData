@@ -118,32 +118,54 @@ def crossValidation(train_set):
 
     names = ['DECISION_TREE','RANDOM_FOREST','SUPPORT_VECTOR_MACHINE','LINEAR_REGRESSION','LOGISTIC_REGRESSION']
 
-    max_score = 0
+    max_precision = 0.0
     for i in range(0,len(classifiers)):
-        scores = cross_val_score(classifiers[i], train_feature_set, category, cv=5)
-        total = 0
-        for score in scores:
-            total = total + score
-        mean = total / len(scores)
-        print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
-        if max_score <  mean:
-            best_classifier = classifiers[i]
-            best_classifier_name = names[i]
-            max_score = mean
-    return best_classifier,best_classifier_name
+        if names[i] == 'LINEAR_REGRESSION':
+            precision = cross_val_score(classifiers[i], train_feature_set, category, cv=3)
+            recall = cross_val_score(classifiers[i], train_feature_set, category, cv=3)
+            f1 = cross_val_score(classifiers[i], train_feature_set, category, cv=3)
+        else:
+            precision = cross_val_score(classifiers[i], train_feature_set, category, cv=3,scoring='precision')
+            recall = cross_val_score(classifiers[i], train_feature_set, category, cv=3,scoring='recall')
+            f1 = cross_val_score(classifiers[i], train_feature_set, category, cv=3,scoring='f1')
+
+
+            total_precision = 0.0
+            total_recall = 0.0
+            total_f1 = 0.0
+
+            for j in range(0,3):
+                total_precision = total_precision + precision[j]
+                total_recall = total_recall + recall[j]
+                total_f1 = total_f1 + f1[j]
+            precision_value = total_precision / float(len(precision))
+            recall_value = total_recall / float(len(recall))
+            f1_value = total_f1 / float(len(f1))
+
+            print("Precision: %0.2f " % (precision.mean()))
+            print("Recall: %0.2f " % (recall.mean()))
+            print("F1: %0.2f " % (f1.mean()))
+            if max_precision < precision_value:
+                best_classifier = classifiers[i]
+                best_classifier_name = names[i]
+                b_recall = recall_value
+                b_f1 = f1_value
+                max_precision = precision_value
+
+    return best_classifier,best_classifier_name, max_precision, b_recall,b_f1
 
 def postProcess(predict, param):
-    predict[0] = 0 if contains(param.value, ['Japan','Tokyo','America','Country','Wikipedia','City','Town','Academy','Island']) == True else predict[0]
+    predict[0] = 0 if contains(param.value, ['Japan','Tokyo','America','Country','Wikipedia','City','Town','Academy','Island','Earth']) == True else predict[0]
     return predict
 
 def print_result(classifier, test_set,name,stats_file,openStatsFile):
     if(openStatsFile):
         stats_file = open(stats_file,'w')
-    ppEp = 0
-    ppEn = 0
-    pnEp = 0
-    pnEn = 0
-    postive = 0
+    ppEp = 0.0
+    ppEn = 0.0
+    pnEp = 0.0
+    pnEn = 0.0
+    postive = 0.0
     for i in range(0,len(test_set)):
         predict = classifier.predict(test_set[i].feature)
         predict = postProcess(predict, test_set[i])
@@ -156,7 +178,7 @@ def print_result(classifier, test_set,name,stats_file,openStatsFile):
             ppEp += 1
         elif predict[0] == 1 and test_set[i] .category== 0:
             ppEn += 1
-            stats_file.write(str(string) + "\n")
+            #stats_file.write(str(string) + "\n")
         elif predict[0] == 0 and test_set[i].category == 1:
             pnEp += 1
         elif predict[0] == 0 and test_set[i].category == 0:

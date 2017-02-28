@@ -3,6 +3,8 @@ import re
 import sys
 from nltk.corpus import wordnet as wn
 
+from Extract_Neg import randExtractSingleFile
+
 def getPostives(input_file):
     positives = []
     file = open(input_file)
@@ -85,6 +87,9 @@ class Train:
         string += str(self.category)
         return string
 
+def extractNegatives(file_name):
+    return randExtractSingleFile(file_name, 2)
+
 def getFeatureSet(file_name, output_file, feature_set):
     #print 'FileName - ' ,file_name
     for positive  in getPostives(file_name):
@@ -94,6 +99,11 @@ def getFeatureSet(file_name, output_file, feature_set):
 
     for negative in getNegatives(file_name):
         train_data = calculateFeatures(negative, file_name, 0)
+        feature_set.append(train_data)
+        output_file.write(train_data.__str__() + '\n')
+
+    for extracted_negatives in extractNegatives(file_name):
+        train_data = calculateFeatures(extracted_negatives, file_name, 0)
         feature_set.append(train_data)
         output_file.write(train_data.__str__() + '\n')
 
