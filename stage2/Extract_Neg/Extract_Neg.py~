@@ -1,0 +1,26 @@
+import random
+import glob
+
+
+def randExtractSingleFile(input_file)
+  negArray = []
+  file = open(input_file)
+  text = str(file.read())
+  split = text.split(" ")
+  p1 = '(<n>(.*?)</n>)'
+  p2 = '(<p>(.*?)</p>)'
+  text = re.sub(p1+'|'+p2, '', text)
+  text = re.sub('[,.;:\[\]\n\r\t()\"]', ' ', text)
+  split = text.split(' ');
+
+
+
+def randExtract():
+  list_of_files = glob.glob('../Marks/*.txt')
+  negArray = []
+  for file_name in list_of_files:
+    negArray.extend(randExtractSingleFile(file_name))
+  return negArray
+  
+
+    
