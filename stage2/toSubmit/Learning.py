@@ -204,12 +204,13 @@ def print_result(classifier, test_set,name,stats_file,openStatsFile):
     recall = ppEp * 100 / postive
     print name , ':Precision - ' , str(precision)
     print name , ':Recal - ' , str(recall)
-    stats_file.write(name + ' - ppEp -'+ str(ppEp) + "\n")
-    stats_file.write(name + ' - ppEn -'+ str(ppEn) + "\n")
-    stats_file.write(name + ' - pnEp -'+ str(pnEp) + "\n")
-    stats_file.write(name + ' - pnEn -'+ str(pnEn) + "\n")
-    stats_file.write(name + ':Precision - '+ str(precision) + "\n")
-    stats_file.write(name + ':Recal - '+ str(recall) + "\n")
+    stats_file.write(name + ' - ppEp ='+ str(ppEp) + "\n")
+    stats_file.write(name + ' - ppEn ='+ str(ppEn) + "\n")
+    stats_file.write(name + ' - pnEp ='+ str(pnEp) + "\n")
+    stats_file.write(name + ' - pnEn ='+ str(pnEn) + "\n")
+    stats_file.write(name + ':Precision = '+ str(precision) + "\n")
+    stats_file.write(name + ':Recal = '+ str(recall) + "\n")
+    stats_file.write(name + ':F1 = ' + str(( 2 * precision * recall / ( precision + recall))) + "\n")
     if openStatsFile:
         stats_file.close()
 
