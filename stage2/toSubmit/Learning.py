@@ -122,13 +122,13 @@ def crossValidation(train_set):
 
     for i in range(0,len(classifiers)):
         if names[i] == 'LINEAR_REGRESSION':
-            precision = cross_val_score(classifiers[i], train_feature_set, category, cv=3)
-            recall = cross_val_score(classifiers[i], train_feature_set, category, cv=3)
-            f1 = cross_val_score(classifiers[i], train_feature_set, category, cv=3)
+            precision = cross_val_score(classifiers[i], train_feature_set, category, cv=6)
+            recall = cross_val_score(classifiers[i], train_feature_set, category, cv=6)
+            f1 = cross_val_score(classifiers[i], train_feature_set, category, cv=6)
         else:
-            precision = cross_val_score(classifiers[i], train_feature_set, category, cv=3,scoring='precision')
-            recall = cross_val_score(classifiers[i], train_feature_set, category, cv=3,scoring='recall')
-            f1 = cross_val_score(classifiers[i], train_feature_set, category, cv=3,scoring='f1')
+            precision = cross_val_score(classifiers[i], train_feature_set, category, cv=6,scoring='precision')
+            recall = cross_val_score(classifiers[i], train_feature_set, category, cv=6,scoring='recall')
+            f1 = cross_val_score(classifiers[i], train_feature_set, category, cv=6,scoring='f1')
 
 
             total_precision = 0.0
@@ -137,7 +137,7 @@ def crossValidation(train_set):
             best_precision = 0.0
             best_recall = 0.0
             best_f1 = 0.0
-            for j in range(0,3):
+            for j in range(0,6):
                 total_precision = total_precision + precision[j]
                 total_recall = total_recall + recall[j]
                 total_f1 = total_f1 + f1[j]
