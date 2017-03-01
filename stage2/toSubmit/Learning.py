@@ -119,6 +119,7 @@ def crossValidation(train_set):
     names = ['DECISION_TREE','RANDOM_FOREST','SUPPORT_VECTOR_MACHINE','LINEAR_REGRESSION','LOGISTIC_REGRESSION']
 
     max_precision = 0.0
+
     for i in range(0,len(classifiers)):
         if names[i] == 'LINEAR_REGRESSION':
             precision = cross_val_score(classifiers[i], train_feature_set, category, cv=3)
@@ -133,11 +134,20 @@ def crossValidation(train_set):
             total_precision = 0.0
             total_recall = 0.0
             total_f1 = 0.0
-
+            best_precision = 0.0
+            best_recall = 0.0
+            best_f1 = 0.0
             for j in range(0,3):
                 total_precision = total_precision + precision[j]
                 total_recall = total_recall + recall[j]
                 total_f1 = total_f1 + f1[j]
+
+                if(best_precision < precision[j]):
+                    best_precision = precision[j]
+                if(best_recall < recall[j]):
+                    best_recall = recall[j]
+                if(best_f1 < f1[j]):
+                    best_f1 = f1[j]
             precision_value = total_precision / float(len(precision))
             recall_value = total_recall / float(len(recall))
             f1_value = total_f1 / float(len(f1))
@@ -145,12 +155,15 @@ def crossValidation(train_set):
             print("Precision: %0.2f " % (precision.mean()))
             print("Recall: %0.2f " % (recall.mean()))
             print("F1: %0.2f " % (f1.mean()))
-            if max_precision < precision_value:
+            print("Best Precision: %0.2f " % (best_precision))
+            print("Best Recall: %0.2f " % (best_recall))
+            print("Best F1: %0.2f " % (best_f1))
+            if max_precision < best_precision:
                 best_classifier = classifiers[i]
                 best_classifier_name = names[i]
-                b_recall = recall_value
-                b_f1 = f1_value
-                max_precision = precision_value
+                b_recall = best_recall
+                b_f1 = best_f1
+                max_precision = best_precision
 
     return best_classifier,best_classifier_name, max_precision, b_recall,b_f1
 
