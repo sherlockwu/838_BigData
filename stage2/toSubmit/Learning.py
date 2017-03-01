@@ -4,9 +4,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import LogisticRegression
 from sklearn.neural_network import MLPClassifier
 from sklearn.svm import SVC
-from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import cross_val_score,cross_val_predict
 from ExtractorAndFeatureGenerator import processFiles
-
+from sklearn.model_selection import KFold
 
 from sklearn import tree
 
@@ -113,65 +113,68 @@ def crossValidation(train_set):
     classifiers.append(tree.DecisionTreeClassifier())
     classifiers.append(RandomForestClassifier())
     classifiers.append(SVC(kernel='linear', C=1))
-    classifiers.append(LinearRegression())
+    classifiers.append(LinearRegression(normalize=True))
     classifiers.append(LogisticRegression())
 
     names = ['DECISION_TREE','RANDOM_FOREST','SUPPORT_VECTOR_MACHINE','LINEAR_REGRESSION','LOGISTIC_REGRESSION']
 
     max_precision = 0.0
-
+    max_recall = 0.0
+    max_f1 = 0.0
     for i in range(0,len(classifiers)):
+        best_precision = 0.0
+        best_recall = 0.0
+        best_f1 = 0.0
         if names[i] == 'LINEAR_REGRESSION':
-            precision = cross_val_score(classifiers[i], train_feature_set, category, cv=6)
-            recall = cross_val_score(classifiers[i], train_feature_set, category, cv=6)
-            f1 = cross_val_score(classifiers[i], train_feature_set, category, cv=6)
+            k_fold = KFold(n_splits=6)
+            for trainset, testset in k_fold.split(train_set):
+                trainsetarray = []
+                trainsetCategoryarray = []
+                testSetarray = []
+                for data in trainset:
+                    trainsetarray.append(train_set[data].feature)
+                    trainsetCategoryarray.append(train_set[data].category)
+                for testindex in testset:
+                    testSetarray.append(train_set[testindex])
+                lr = classifiers[i].fit(trainsetarray, trainsetCategoryarray)
+                result = print_result(lr, testSetarray, 'LINEAR_REGRESSION', "", False,True)
+                if best_precision < result[0]:
+                    best_precision = result[0]
+                    best_recall = result[1]
+                    if(best_precision + best_recall == 0):
+                        best_f1 = 0
+                    else:
+                        best_f1 = ( 2 * best_recall * best_precision ) / ( best_recall + best_precision)
         else:
             precision = cross_val_score(classifiers[i], train_feature_set, category, cv=6,scoring='precision')
             recall = cross_val_score(classifiers[i], train_feature_set, category, cv=6,scoring='recall')
             f1 = cross_val_score(classifiers[i], train_feature_set, category, cv=6,scoring='f1')
-
-
-            total_precision = 0.0
-            total_recall = 0.0
-            total_f1 = 0.0
-            best_precision = 0.0
-            best_recall = 0.0
-            best_f1 = 0.0
             for j in range(0,6):
-                total_precision = total_precision + precision[j]
-                total_recall = total_recall + recall[j]
-                total_f1 = total_f1 + f1[j]
-
                 if(best_precision < precision[j]):
                     best_precision = precision[j]
                 if(best_recall < recall[j]):
                     best_recall = recall[j]
                 if(best_f1 < f1[j]):
                     best_f1 = f1[j]
-            precision_value = total_precision / float(len(precision))
-            recall_value = total_recall / float(len(recall))
-            f1_value = total_f1 / float(len(f1))
 
-            print("Precision: %0.2f " % (precision.mean()))
-            print("Recall: %0.2f " % (recall.mean()))
-            print("F1: %0.2f " % (f1.mean()))
-            print("Best Precision: %0.2f " % (best_precision))
-            print("Best Recall: %0.2f " % (best_recall))
-            print("Best F1: %0.2f " % (best_f1))
-            if max_precision < best_precision:
-                best_classifier = classifiers[i]
-                best_classifier_name = names[i]
-                b_recall = best_recall
-                b_f1 = best_f1
-                max_precision = best_precision
+        print("Best Precision: %0.2f " % (best_precision))
+        print("Best Recall: %0.2f " % (best_recall))
+        print("Best F1: %0.2f " % (best_f1))
 
-    return best_classifier,best_classifier_name, max_precision, b_recall,b_f1
+        if max_precision < best_precision:
+            best_classifier = classifiers[i]
+            best_classifier_name = names[i]
+            max_recall = best_recall
+            max_f1 = best_f1
+            max_precision = best_precision
+
+    return best_classifier,best_classifier_name, max_precision, max_recall,max_f1
 
 def postProcess(predict, param):
     predict[0] = 0 if contains(param.value, ['Japan','Tokyo','America','Country','Wikipedia','City','Town','Academy','Island','Earth']) == True else predict[0]
     return predict
 
-def print_result(classifier, test_set,name,stats_file,openStatsFile):
+def print_result(classifier, test_set,name,stats_file,openStatsFile,skipwriting=False):
     if(openStatsFile):
         stats_file = open(stats_file,'w')
     ppEp = 0.0
@@ -204,13 +207,14 @@ def print_result(classifier, test_set,name,stats_file,openStatsFile):
     recall = ppEp * 100 / postive
     print name , ':Precision - ' , str(precision)
     print name , ':Recal - ' , str(recall)
-    stats_file.write(name + ' - ppEp ='+ str(ppEp) + "\n")
-    stats_file.write(name + ' - ppEn ='+ str(ppEn) + "\n")
-    stats_file.write(name + ' - pnEp ='+ str(pnEp) + "\n")
-    stats_file.write(name + ' - pnEn ='+ str(pnEn) + "\n")
-    stats_file.write(name + ':Precision = '+ str(precision) + "\n")
-    stats_file.write(name + ':Recal = '+ str(recall) + "\n")
-    stats_file.write(name + ':F1 = ' + str(( 2 * precision * recall / ( precision + recall))) + "\n")
+    if not skipwriting:
+        stats_file.write(name + ' - ppEp ='+ str(ppEp) + "\n")
+        stats_file.write(name + ' - ppEn ='+ str(ppEn) + "\n")
+        stats_file.write(name + ' - pnEp ='+ str(pnEp) + "\n")
+        stats_file.write(name + ' - pnEn ='+ str(pnEn) + "\n")
+        stats_file.write(name + ':Precision = '+ str(precision) + "\n")
+        stats_file.write(name + ':Recal = '+ str(recall) + "\n")
+        stats_file.write(name + ':F1 = ' + str(( 2 * precision * recall / ( precision + recall))) + "\n")
     if openStatsFile:
         stats_file.close()
 
