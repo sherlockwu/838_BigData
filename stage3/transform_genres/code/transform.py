@@ -4,18 +4,16 @@ from collections import namedtuple
 
 # readin csv
 
-file_out = open('anime_1_merged.csv', 'w')
+file_out = open('animePlayer_merged.csv', 'w')
 
 file_out.write("ID,Title,Episodes,ProductionHouse,Genres,Type,Year,Rating,ProductionHouse_Merged,Genres_Merged\n");
 
-with open('anime_1.csv', 'rb') as csvfile:
+with open('animePlayer.csv', 'rb') as csvfile:
 	readin = csv.reader(csvfile)
 	headings = next(readin)
 	Row = namedtuple('Row', headings)
 	for row in readin:
-				
-		#row_out = ','.join(str(x) for x in row)
-		row_out = row
+		row_out = ','.join(str(x) for x in row)
 		# get genres
 		genres = str(row[4])
 		genres = re.sub(r'\'', '', genres)
@@ -30,8 +28,8 @@ with open('anime_1.csv', 'rb') as csvfile:
 			x = re.sub(r' ', '', x)
 			genres_after = genres_after+x
 		# output
-		
-		# get productionhouse
+
+	    # get productionhouse
 		production = str(row[3])
 		production = re.sub(r'\'', '', production)
 		# transform
@@ -44,10 +42,10 @@ with open('anime_1.csv', 'rb') as csvfile:
 			x = re.sub(r' ', '', x)
 			production_after = production_after+x
 		# output
-		
+
 		# print out
-		#row_out = re.sub(r' \'', '', row_out)
-		#row_out = re.sub(r'\'', '', row_out)
-		file_out.write(str(row_out)+','+production_after+','+genres_after+'\n')
+		row_out = re.sub(r']', ''']"''', row_out)
+		row_out = re.sub(r'\[', '''"[''', row_out)
+		file_out.write(row_out+','+production_after+','+genres_after+'\n')
 
 file_out.close()
