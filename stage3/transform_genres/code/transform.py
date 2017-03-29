@@ -4,16 +4,20 @@ from collections import namedtuple
 
 # readin csv
 
-file_out = open('animePlayer_merged.csv', 'w')
+file_out = open('anime_1_merged.csv', 'w')
 
 file_out.write("ID,Title,Episodes,ProductionHouse,Genres,Type,Year,Rating,ProductionHouse_Merged,Genres_Merged\n");
 
-with open('animePlayer.csv', 'rb') as csvfile:
+with open('anime_1.csv', 'rb') as csvfile:
 	readin = csv.reader(csvfile)
 	headings = next(readin)
 	Row = namedtuple('Row', headings)
 	for row in readin:
+		# get title
+		row[1] = "\"" + row[1] + "\""
+		
 		row_out = ','.join(str(x) for x in row)
+		
 		# get genres
 		genres = str(row[4])
 		genres = re.sub(r'\'', '', genres)

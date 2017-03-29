@@ -18,6 +18,7 @@ with open('animePlayer.csv', 'rb') as csvfile:
 		# for mulikan
 		#print(row)
 		genres_extract = re.search(r'\[(.*)]',str(row)).group(0)
+		print("we get: " + genres_extract)
 		
 		genres_after = re.sub(r'\[', '', genres_extract)
 		genres_after = re.sub(r']', '', genres_after)
