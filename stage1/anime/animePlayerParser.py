@@ -25,6 +25,7 @@ def parseAndWriteTheDetail(input_file, output_file):
                 episodes = typeWithEpisodes
 
             #production house of the anime
+            productionHouse = []
             try:
                 production_house =  re.findall(r'\<\/li\>(.*)\<\/li\>', data)[0].split("<li>")[1].split("<")[0]
             except Exception as e:
@@ -33,6 +34,7 @@ def parseAndWriteTheDetail(input_file, output_file):
                     production_house = ''
                 else:
                     production_house = re.findall(r'\<\/li\>(.*)\<\/li\>', data)[0].split('>')[1]
+            productionHouse.append(production_house)
 
             #years
             try:
@@ -51,13 +53,12 @@ def parseAndWriteTheDetail(input_file, output_file):
                 #print 'Rating error - ' , re.findall(r'\<div class=\'ttRating\'>(.*)',data) -- Done
 
             #genres of anime
-            genres = '['
+            genres = []
             for genre in str(re.findall(r'\<ul\>(.*)\<\/ul\>', data)).split("<li>"):
                 if genre != "['":
-                    genres += genre.split("</li>")[0] + ","
-            genres = genres[:-1] + ']'
+                    genres.append(genre.split("</li>")[0])
 
-            animeDetails = str(count) +',' + title[0] + ',' + episodes + ',' + production_house + ',' + genres + ',' + atype + ',' + iconYear + ',' + rating + '\n'
+            animeDetails = str(count) +',\"' + title[0] + '\",' + episodes + ',\"' + str(productionHouse) + '\",\"' + str(genres) + '\",' + atype + ',' + iconYear + ',' + rating + '\n'
             output_file.write(animeDetails)
             #print animeDetails
             count +=1
