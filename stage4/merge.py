@@ -123,13 +123,13 @@ def merge(entity_1, entity_player):
 	result.append(union_year(entity_1['Year'], entity_player['Year']))
 
 		# Rating : ainme_1
-	if(entity_1['Rating']!=''):
-		result.append(entity_1['Rating'])
+	if(entity_player['Rating']!=''):
+		result.append(entity_player['Rating'])
 	else:
-		if (entity_player['Rating']==''):
+		if (entity_1['Rating']==''):
 			result.append('Unknown')
 		else:
-			result.append(entity_player['Rating'])
+			result.append(entity_1['Rating'])
 	
 	return result
 
@@ -137,14 +137,14 @@ def merge(entity_1, entity_player):
 if __name__ == "__main__":
 	# read in two entities
 	
-	csv_1 = open('anime_1_match_nodup.csv')
-	csv_player = open('animePlayer_match_nodup.csv')
+	csv_1 = open('anime_1_match.csv')
+	csv_player = open('animePlayer_match.csv')
 	reader_1 = csv.DictReader(csv_1)
 	reader_player = csv.DictReader(csv_player)
 
-	out = open('merged_overall_nodup.csv', 'w')
+	out = open('merged_overall.csv', 'w')
 	out.write('ID,Title,Episodes,ProductionHouse,Genres,Type,Year,Rating\n')
-	for i in range(2497):
+	for i in range(5124):
 		entity_1 = next(reader_1)
 		entity_player = next(reader_player)
 		print("===== iteration " + str(i))
