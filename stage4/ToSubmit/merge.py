@@ -126,11 +126,11 @@ def merge(entity_1, entity_player):
 	if(entity_1['Rating']!=''):
 		result.append(entity_1['Rating'])
 	else:
-		if (entity_player['Rating']==''):
-			result.append('Unknown')
-		else:
-			result.append(entity_player['Rating'])
-	
+		#if (entity_player['Rating']==''):
+		#	result.append('Unknown')
+		#else:
+		#	result.append(entity_1['Rating'])
+		result.append('Unkown')
 	return result
 
 

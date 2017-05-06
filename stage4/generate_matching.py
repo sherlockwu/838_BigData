@@ -8,7 +8,7 @@ import re
 if __name__ == "__main__":
 	# read in two entities
 	#ids = open('predicted_values_ids.csv')
-	ids = open('predicted_values_ids_nodup.csv')
+	ids = open('predicted_ids_deduplicated.csv')
 	reader_ids = csv.DictReader(ids)
 	
 	file_1 = open('anime_1.csv')
